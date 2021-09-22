@@ -1,0 +1,17 @@
+with "gtkada";
+
+project genererDessin is
+
+   for Main use ("trait.adb");
+   
+ 
+   package Compiler is
+        for Default_Switches ("ada") use ("-g");
+   end Compiler;
+
+   package Pretty_Printer is
+    for Default_Switches ("ada") use ("-nM");
+   end Pretty_Printer;
+
+end genererDessin;
+
