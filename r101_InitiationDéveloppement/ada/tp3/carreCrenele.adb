@@ -1,8 +1,10 @@
 
 with Traceur; use Traceur;
 
-procedure pleinscarre  is
-
+procedure carreCrenele  is
+    i: Integer;
+    j: Integer;
+    cote: Integer;
     -- placer le stylet au centre et vers le nord
     procedure setup is
     begin
@@ -12,8 +14,19 @@ procedure pleinscarre  is
         orienterNord; 
     end setup;
 
+    procedure pivoterDroite is
+    i: Integer;
+    begin
+        i:= 0;
+        while i < 3 loop
+            pivoterGauche;
+            i:= i+1;
+        end loop;
+    end pivoterDroite;
+
     procedure goFwd(length : in Integer) is
     i : Integer;
+
     begin
         i :=0; 
         while i < length loop
@@ -29,34 +42,38 @@ procedure pleinscarre  is
         leverStylet;
     end trait;
 
-    procedure carre(length : in Integer) is
-    i : Integer; -- compteur
-    halfLength : Integer; --moitié de la longueur
-
+    procedure crenau (length: in Integer) is
     begin
-        halfLength:= length /2;        
-        centrerStylet;
-        orienterNord;
-        goFwd(halfLength);
+        pivoterDroite;
+        trait(length);
         pivoterGauche;
-        goFwd(halfLength);
-
-        i:= 0;
-        while i < 4 loop
-            pivoterGauche;
-            trait(length);
-            i:= i + 1;
-        end loop;
-    end carre;
+        trait(length);
+        pivoterGauche;
+        trait(length);
+        pivoterDroite;
+        trait(length);
+    end crenau;
 
 begin
+    
+    cote:= 50;
     -- placer le stylet au centre et vers le nord
     setup;
-        
-    -- tracer le carre
-    carre(100);
-    --setup;
-    carre(50);
+    -- placement spécifique à l'exercice
+
+
+    -- tracer la figure
+    i:= 0;
+    while i< 4 loop
+        trait(20);
+        j:= 0;
+        while j<3 loop
+        crenau(20);
+        j:= j+1;
+        end loop;
+        pivoterGauche;
+        i:= i+1;
+    end loop;
     
     -- revenir au centre sans tracer
         leverStylet;
@@ -64,5 +81,5 @@ begin
    
     -- afficher le dessin
         afficherTraceur;
-end pleinscarre;
+end carreCrenele;
 

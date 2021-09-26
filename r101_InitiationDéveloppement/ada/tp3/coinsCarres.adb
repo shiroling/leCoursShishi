@@ -1,8 +1,9 @@
 
 with Traceur; use Traceur;
 
-procedure pleinscarre  is
-
+procedure coinsCarres  is
+    i: Integer;
+    cote: Integer;
     -- placer le stylet au centre et vers le nord
     procedure setup is
     begin
@@ -12,8 +13,19 @@ procedure pleinscarre  is
         orienterNord; 
     end setup;
 
+    procedure pivoterDroite is
+    i: Integer;
+    begin
+        i:= 0;
+        while i < 3 loop
+            pivoterGauche;
+            i:= i+1;
+        end loop;
+    end pivoterDroite;
+
     procedure goFwd(length : in Integer) is
     i : Integer;
+
     begin
         i :=0; 
         while i < length loop
@@ -29,34 +41,38 @@ procedure pleinscarre  is
         leverStylet;
     end trait;
 
+    -- permet de tracer un carré de longueure variable, 
+    -- prenant comme point de départ le Stylet actuellemen placé.
     procedure carre(length : in Integer) is
     i : Integer; -- compteur
-    halfLength : Integer; --moitié de la longueur
 
     begin
-        halfLength:= length /2;        
-        centrerStylet;
-        orienterNord;
-        goFwd(halfLength);
-        pivoterGauche;
-        goFwd(halfLength);
-
         i:= 0;
         while i < 4 loop
-            pivoterGauche;
             trait(length);
+            pivoterGauche;
             i:= i + 1;
         end loop;
+        pivoterDroite;
     end carre;
 
 begin
+    
+    cote:= 50;
     -- placer le stylet au centre et vers le nord
     setup;
-        
-    -- tracer le carre
-    carre(100);
-    --setup;
-    carre(50);
+    -- placement spécifique à l'exercice
+    goFwd(cote);
+    pivoterGauche;
+    goFwd(cote);
+
+    -- tracer la figure
+    i:=0;
+    while i< 4 loop
+        carre(cote);
+        trait(2*cote);
+        i:= i+1;
+    end loop;
     
     -- revenir au centre sans tracer
         leverStylet;
@@ -64,5 +80,5 @@ begin
    
     -- afficher le dessin
         afficherTraceur;
-end pleinscarre;
+end coinsCarres;
 
