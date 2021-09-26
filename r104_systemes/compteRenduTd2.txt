@@ -1,0 +1,43 @@
+compte rendu:
+exo 1:
+Je ne savais pas que l'on pouvais créer des fichiers avec "cat", c'est bien
+
+Ca 	 marché j'ai écrit "oui" dans le fihier toto
+
+Exo 2:
+On  peut faire de fichiers vides avec "cat"
+
+$ touch tata tutu
+
+non, on peux pas
+
+Exo 3:
+la commande less permet de lire un fichier ou encore de chercher dedans une fois ouvert, 
+les actions sont disponibles en faisant h dans l'éditeur.
+
+ah oui ok en faisant 
+:c
+puis en entrant le nomdu fichier
+
+Exo 4:
+cela remplace le fichier aprés confirmation
+
+on force avec -f
+
+cela déplace les fichiers fic[1,2,3] dans le repertoire rep
+
+Exo 5:
+ c'est -f encore
+
+Exo 6:
+c'est fait
+
+Exo 7:
+il y a 2 mots dan mon fichier toto
+et ce sur 1 ligne
+et 5 charactéres
+
+Exo 8:
+ça fait bcp de lignes
+
+
