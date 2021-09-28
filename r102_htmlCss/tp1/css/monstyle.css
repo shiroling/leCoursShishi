@@ -1,0 +1,24 @@
+p {
+	/* couleur du texte*/
+	color: red;
+}
+
+h1 {
+	background-color: blue;
+}
+
+html {
+	border-width: 5px;
+	border-style: dashed groove none dotted;
+	border-color: blue;
+}
+
+li {
+	border-width: 15px;
+	border-style: dotted;
+	border-color: green;
+}
+
+p:hover {
+  background-color: gold;
+}
