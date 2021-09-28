@@ -1,3 +1,4 @@
+pragma Warnings (Off);
 pragma Ada_95;
 pragma Source_File_Name (ada_main, Spec_File_Name => "b__carre.ads");
 pragma Source_File_Name (ada_main, Body_File_Name => "b__carre.adb");
