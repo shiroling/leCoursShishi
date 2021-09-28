@@ -31,13 +31,16 @@ procedure isocele is
 
 	procedure printIsocele(c: in Character; nb: in Integer) is
 	i: Integer;
+	stars: Integer;
 	begin
 		i:=0;
-		while i<nb loop
+		stars:= 1;
+		while stars<=nb loop
 			printCharLine(' ', nb-i);
-            printSpaceCharLine('*', i+1 );
+			printCharLine('*', stars);
             new_line;
             i:=i+1;
+            stars:= stars +2;
 		end loop;
 	end printIsocele;
 
