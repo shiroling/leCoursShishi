@@ -1,0 +1,9 @@
+R1.02:
+Question 1:
+On observe que la taille du texte est décroissante en fonction du niveau de la balise.
+
+Question 2:
+L'immage n'apparais plus sur le site.
+
+Question 3:
+On observe en effet de nouvelles balises comme "head" et comprendre son comportement (est fixé en haut)
