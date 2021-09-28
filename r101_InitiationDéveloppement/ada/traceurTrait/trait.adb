@@ -1,8 +1,8 @@
 
 with Traceur; use Traceur;
 
-procedure main  is
-   c1 : Integer; -- compteur pour le nb d'unitï¿½s du trait dï¿½jï¿½ tracï¿½es
+procedure trait  is
+   c1 : Integer; -- compteur pour le nb d'unités du trait déjà tracées
 
 begin
 	-- initialise le traceur
@@ -29,5 +29,5 @@ begin
    
     -- affiche le dessin
 		afficherTraceur;
-end main;
+end trait;
 

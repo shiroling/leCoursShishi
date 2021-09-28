@@ -1,8 +1,9 @@
 
 with Traceur; use Traceur;
 
-procedure pleinscarre  is
+procedure carreGigognes  is
 
+    cote: Integer;
     -- placer le stylet au centre et vers le nord
     procedure setup is
     begin
@@ -53,10 +54,12 @@ begin
     -- placer le stylet au centre et vers le nord
     setup;
         
-    -- tracer le carre
-    carre(100);
-    --setup;
-    carre(50);
+    -- tracer les carres
+    cote:= 20;
+    while cote<220 loop
+        carre(cote);
+        cote:= cote + 50;
+    end loop;
     
     -- revenir au centre sans tracer
         leverStylet;
@@ -64,5 +67,5 @@ begin
    
     -- afficher le dessin
         afficherTraceur;
-end pleinscarre;
+end carreGigognes;
 
