@@ -1,0 +1,31 @@
+exo1.4:
+$ chmod a+x file4 
+
+ewo1.5
+$ chmod g-xwr file4
+
+exo1.6:
+$ chmod +040 file4
+
+exo1.7:
+chmod 700 ~/
+
+exo1.8:
+L'arguent qui permet de modifier récursivement est -R
+
+exo1.9:
+L'option permettant de créer un fichier en spécifiant les drois utilisaeur est -m=<option>
+exo1.10:
+C'est impossible, nous n'avons pas les droits
+
+exo2.1:
+fait.
+
+exo2.2:
+Le masque appliqué donne au groupe et a tout les utilisateurs les droits d'ecriture
+
+exo2.3:
+$ umask 750
+
+exo3.2:
+Il n'y a pas de diférences
