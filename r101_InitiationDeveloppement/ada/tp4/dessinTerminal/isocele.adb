@@ -45,7 +45,7 @@ procedure isocele is
 	end printIsocele;
 
 --déclaration de 2 variables
-n: integer:= 12;
+n: integer:= 22;
 c: Character:= '*';
 begin
 	
