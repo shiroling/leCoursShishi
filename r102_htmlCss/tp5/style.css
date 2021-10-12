@@ -1,0 +1,22 @@
+body {
+	background-color: lightblue;
+	margin: 0;
+}
+
+header {
+	padding: 60px;
+
+	background-color: #1abc9c;
+}
+
+footer {
+	background-color: lightcoral;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+
+#wall {
+	width: 100%;
+	height: auto;
+}
