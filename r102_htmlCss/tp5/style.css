@@ -16,7 +16,8 @@ footer {
 	width: 100%;
 }
 
-#wall {
-	width: 100%;
-	height: auto;
+.banner {
+
+	background: url(wall.jpg);
+	background-size: cover;
 }
