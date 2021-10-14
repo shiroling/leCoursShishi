@@ -1,12 +1,13 @@
 body {
-	background-color: lightblue;
+	background-color: #001a2b;
 	margin: 0;
 }
 
 header {
-	padding: 60px;
+	
+	padding: 15px;
 
-	background-color: #1abc9c;
+	background-color: #1abc9c00;
 }
 
 footer {
@@ -17,7 +18,8 @@ footer {
 }
 
 .banner {
-
+	height: 35vh;
 	background: url(wall.jpg);
 	background-size: cover;
+	background-position: center;
 }
