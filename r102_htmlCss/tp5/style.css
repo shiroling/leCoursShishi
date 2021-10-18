@@ -1,23 +1,70 @@
 body {
-	background-color: lightblue;
+	background-color: #001a2b;
 	margin: 0;
 }
 
 header {
-	padding: 60px;
-
-	background-color: #1abc9c;
-}
-
-footer {
-	background-color: lightcoral;
-	bottom: 0;
 	position: fixed;
 	width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+	background-color: #0000;
+    align-items: center;
+	transition: 0.5s;
+}
+
+header.sticky{
+	justify-content: center;
+	align-items: center;
+    background: #fff;
+    padding: 10px 100px;
+
 }
 
 .banner {
-
-	background: url(wall.jpg);
+	height: 70vh;
+	background: url(images/wall.jpg);
 	background-size: cover;
+	background-position: center;
+}
+
+p {
+	margin-left: 35px;
+	margin-right: 35px;
+	color: #FFF;
+	font-size: 1.3em;
+}
+#foot {
+	margin-bottom: 0;
+	background-color: lightcoral;
+	width: 100%;
+	height: 4vh;
+}
+
+
+
+@media (max-width: 991px){
+	.banner {
+	height: 50vh;
+	}
+}
+
+@media (max-width: 700px){
+    .banner {
+    height: 40vh;
+
+    }
+}
+
+@media (max-width:500px){
+    .banner {
+    height: 35vh;
+
+    }
+
+@media (max-width:380px){
+    .banner {
+    height: 30vh;
+
+    }
 }

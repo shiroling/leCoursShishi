@@ -1,0 +1,68 @@
+V "GNAT Lib v10"
+M P W=b
+A -g
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U tp2%b			verifiezCeCode.adb	a5309e8c NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20200723063517 76789da1 ada%s
+D a-except.ads		20200723063517 a7106115 ada.exceptions%s
+D a-inteio.ads		20200723063517 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200723063517 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200723063517 119b8fb3 ada.streams%s
+D a-tags.ads		20200723063517 491b781d ada.tags%s
+D a-textio.ads		20200723063517 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200723063517 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200723063517 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200723063517 5ab55268 interfaces%s
+D i-cstrea.ads		20200723063517 e53d8b8e interfaces.c_streams%s
+D system.ads		20200723063517 4635ec04 system%s
+D s-crtl.ads		20200723063517 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200723063517 54135002 system.exception_table%s
+D s-ficobl.ads		20200723063517 078245e4 system.file_control_block%s
+D s-parame.ads		20200723063517 48ec542b system.parameters%s
+D s-secsta.ads		20200723063517 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200723063517 a7318a92 system.soft_links%s
+D s-stache.ads		20200723063517 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200723063517 09bd3940 system.standard_library%s
+D s-stoele.ads		20200723063517 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200723063517 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200723063517 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200723063517 1b7d22d2 system.wch_con%s
+D verifiezCeCode.adb	20211004131854 fd8fc245 tp2%b
+G a e
+G c Z b b [tp2 standard 7 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 25|2r6 2r23 3r6 3r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 25|3w10 3r35
+X 7 a-textio.ads
+57K13*Text_IO 727e16 25|2w10 2r27
+465U14*Put 25|46s17 49s17
+508U14*Put_Line 25|21s17 23s17 25s17 27s17 34s9
+X 8 a-tiinio.ads
+59U14*Get 25|22s17[3|18] 24s17[3|18] 26s17[3|18] 28s17[3|18] 36s9[3|18]
+80U14*Put 25|57s9[3|18]
+X 25 verifiezCeCode.adb
+7U11*tp2 7b11 59l5 59t8
+9R14 Enr 14e19 17r13 19r38 32r38 43r36
+10i17 c1{integer} 22m26 37m12 38r34 39r33 45r17
+11i17 c2{integer} 24m26 38m12 39r45 45r23
+12i17 c3{integer} 26m26 39m12 45r29
+13i17 c4{integer} 28m26 40m12 45r44
+16i9 number{integer} 36m13 37r17 38r17 39r17 40r17
+17r9 co{9R14} 37m9 38m9 38r31 39m9 39r30 39r42 40m9 57r23
+19U19 lireCode 19b19 19<28 30l13 30t21
+19r28 code{9R14} 22m21 22r21 24m21 24r21 26m21 26r21 28m21 28r21
+32U19 getcode 32b19 32<28 41l13 41t20
+32r28 code{9R14}
+43V18 verifCode{integer} 43b18 43>29 52l13 52t22 57s13
+43r29 nb{9R14} 45r14 45r20 45r26 45r41
+

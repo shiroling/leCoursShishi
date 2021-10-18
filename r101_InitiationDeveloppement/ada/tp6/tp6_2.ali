@@ -1,0 +1,65 @@
+V "GNAT Lib v10"
+M P W=b
+A -g
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV SPARK_05
+
+U tp6_2%b		tp6_2.adb		a3811b6c NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20200723063517 76789da1 ada%s
+D a-except.ads		20200723063517 a7106115 ada.exceptions%s
+D a-inteio.ads		20200723063517 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200723063517 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200723063517 119b8fb3 ada.streams%s
+D a-tags.ads		20200723063517 491b781d ada.tags%s
+D a-textio.ads		20200723063517 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200723063517 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200723063517 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200723063517 5ab55268 interfaces%s
+D i-cstrea.ads		20200723063517 e53d8b8e interfaces.c_streams%s
+D system.ads		20200723063517 4635ec04 system%s
+D s-crtl.ads		20200723063517 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200723063517 54135002 system.exception_table%s
+D s-ficobl.ads		20200723063517 078245e4 system.file_control_block%s
+D s-parame.ads		20200723063517 48ec542b system.parameters%s
+D s-secsta.ads		20200723063517 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200723063517 a7318a92 system.soft_links%s
+D s-stache.ads		20200723063517 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200723063517 09bd3940 system.standard_library%s
+D s-stoele.ads		20200723063517 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200723063517 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200723063517 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200723063517 1b7d22d2 system.wch_con%s
+D tp6_2.adb		20211012101712 fb3e47a5 tp6_2%b
+G a e
+G c Z b b [tp6_2 standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 25|1r6 1r30 2r6 2r22
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 25|1w10 1r34
+X 7 a-textio.ads
+57K13*Text_IO 727e16 25|2w10 2r26
+465U14*Put 25|20s9 33s9
+X 8 a-tiinio.ads
+59U14*Get 25|21s9[3|18] 26s17[3|18]
+80U14*Put 25|33s43[3|18]
+X 25 tp6_2.adb
+4U11*tp6_2 4b11 35l5 35t10
+6i9 NbCoefs{integer} 7r40 25r17
+7A14 TabInteger(integer)<integer> 10r32
+9R14 polynome 12e19 16r11
+10a17 coefficients{7A14} 26m23 27r31 31m11
+11i17 degre{integer} 22m11 29m19 29r28 33r49
+14i9 marqueurFin{integer} 21m13 25r40
+15i9 i{integer} 24m9 25r15 26r36 27r44 28m17 28r20
+16r9 P{9R14} 22m9 26m21 26r21 27r29 29m17 29r26 31m9 33r47
+17i9 lastEntry{integer} 23m9 25r29 27m17
+

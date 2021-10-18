@@ -1,0 +1,96 @@
+V "GNAT Lib v10"
+M P W=b
+A -g
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U somme%b		somme.adb		688a1a37 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20200723063517 76789da1 ada%s
+D a-except.ads		20200723063517 a7106115 ada.exceptions%s
+D a-inteio.ads		20200723063517 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200723063517 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200723063517 119b8fb3 ada.streams%s
+D a-tags.ads		20200723063517 491b781d ada.tags%s
+D a-textio.ads		20200723063517 aef4d56d ada.text_io%s
+D a-tiinio.ads		20200723063517 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200723063517 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200723063517 5ab55268 interfaces%s
+D i-cstrea.ads		20200723063517 e53d8b8e interfaces.c_streams%s
+D somme.adb		20211011152213 303546fe somme%b
+D system.ads		20200723063517 4635ec04 system%s
+D s-crtl.ads		20200723063517 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200723063517 54135002 system.exception_table%s
+D s-ficobl.ads		20200723063517 078245e4 system.file_control_block%s
+D s-parame.ads		20200723063517 48ec542b system.parameters%s
+D s-secsta.ads		20200723063517 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200723063517 a7318a92 system.soft_links%s
+D s-stache.ads		20200723063517 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200723063517 09bd3940 system.standard_library%s
+D s-stoele.ads		20200723063517 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200723063517 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200723063517 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200723063517 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [somme standard 5 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 12|2r6 2r31 3r6 3r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|2w10 2r35
+X 7 a-textio.ads
+57K13*Text_IO 727e16 12|3w10 3r35
+264U14*New_Line 12|19s13 41s61
+392U14*Put 12|18s21 30s13 55s17
+465U14*Put 12|41s13
+X 8 a-tiinio.ads
+59U14*Get 12|42s13[3|18]
+80U14*Put 12|18s13[3|18] 18s31[3|18] 41s53[3|18]
+X 12 somme.adb
+5U11*somme 5b11 108l5 108t10
+7i5 MAX_LENGTH{integer} 8r36 9r38 40r27
+8A10 TabEntiers(integer)<integer> 12r51 36r47 47r75 64r47 76r31 76r52 76r87
+. 78r10 91r11
+9A10 TabCharacter(character)<integer> 24r52 47r52 92r13
+12U15 printTabInt 12b15 12>28 12>43 22l9 22t20
+12i28 nb{integer} 17r18
+12a43 tab{8A10} 18r35
+13i5 i{integer} 16m9 17r15 18r17 18r39 20m13 20r17
+24U15 printTabChar 24b15 24>29 24>44 33l9 33t21
+24i29 nb{integer} 29r18
+24a44 tab{9A10} 30r17
+25i5 i{integer} 28m9 29r15 30r21 31m13 31r17
+36U15 askTab 36b15 36>22 36<38 45l9 45t15 96s5
+36i22 nb{integer} 40r18
+36a38 tab{8A10} 42m17 42r17
+37i5 i{integer} 39m9 40r15 40r25 41r57 42r21 43m13 43r17
+47U15 stutterword 47b15 47>27 47>43 47>66 61l9 61t20 106s5
+47i27 nb{integer} 52r17
+47a43 tab1{9A10} 55r21
+47a66 tab2{8A10} 54r21
+48i5 i{integer} 51m9 52r15 54r26 55r26 59m13 59r17
+48i8 j{integer} 53m13 54r19 56m17 56r21
+64V14 sommeTab{integer} 64b14 64>23 64>39 74l9 74t17
+64i23 nb{integer} 68r14
+64a39 tab{8A10} 69r25
+65i5 i{integer} 67m5 68r11 69r29 70m9 70r13
+65i8 somme{integer} 67m11 69m9 69r17 73r12
+76V14 diffTab{8A10} 76b14 76>22 76>43 76>64 87l9 87t16
+76a22 tab1{8A10} 83r22
+76a43 tab2{8A10} 83r31
+76i64 nb{integer} 82r17
+77i5 i{integer} 81m9 82r15 83r17 83r27 83r36 84m13 84r16
+78a5 tab{8A10} 83m13 86r16
+90i5 nbElements{integer} 105m5
+91a5 tab{8A10} 96m15 106r28
+92a5 tabCar{9A10} 98m5 106r20
+
