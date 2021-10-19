@@ -1,39 +1,124 @@
 body {
 	background-color: #001a2b;
-	margin: 0;
+	margin: 0px;
 }
 
-header {
-	position: fixed;
-	width: 100%;
-    padding: 40px 100px;
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 10000;
-	background-color: #0000;
+    justify-content: space-between;
     align-items: center;
-	transition: 0.5s;
+    transition: 0.5s;
 }
 
-header.sticky{
-	justify-content: center;
-	align-items: center;
-    background: #fff;
-    padding: 10px 100px;
-
-}
-
-.banner {
-	height: 70vh;
-	background: url(images/wall.jpg);
-	background-size: cover;
-	background-position: center;
+section {
+	padding: 64px;
+	padding-top: 0;
 }
 
 p {
 	margin-left: 35px;
 	margin-right: 35px;
 	color: #FFF;
-	font-size: 1.3em;
+	font-size: 1em;
 }
+
+header .menuIcon {
+	display: none;
+}
+
+header .navigation{
+    display: flex;
+	align-items: row;
+	justify-content: space-evenly;
+}
+
+header #onMenu {
+	display: none;
+}
+
+header .navigation li{
+    margin-left: 0;
+	list-style-type: none;
+}
+
+header .navigation li a{
+	text-decoration: none;
+    color: #EEE;
+    font-size: 1.6em;
+}
+
+header.sticky .navigation li a{
+    color: #111;
+    font-size: 1.6em;
+}
+
+.sticky{
+    background: #fff;
+    color: #111;
+}
+
+
+
+
+.articleTitle {
+	padding-left: 16px;
+	color: #3973a3;
+	font-size: 1.7em;
+	font-weight: 300;
+}
+.banner {
+	padding: 64px;
+	height: 45vh;
+	background: url(images/wall.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.wideArticle {
+	padding-top: 0px;
+}
+
+.row {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.rowDa {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.column {
+	background: #001521;
+	justify-content: end;
+	width: 62%	;
+}
+
+.columnDa {
+	background: #001521;
+	width: 48%;
+	justify-content: space-between;
+}
+
+#figAvPropos {
+	background: url(images/land.jpg);
+	width: 34%;
+	background-size: cover;
+	background-position: center;
+}
+
+
 #foot {
 	margin-bottom: 0;
 	background-color: lightcoral;
@@ -44,27 +129,133 @@ p {
 
 
 @media (max-width: 991px){
+	body {
+		margin: 0;
+	}
+
+	.sticky {
+		background: #0000;
+	}
+
+	section {
+		padding: 40px;
+	}
+
+	header .menuIcon {
+		display: flex;
+		justify-content: right;
+		margin: 10px;
+	}
+
+	header #sayMenu {
+		padding-right: 10px;
+	}
+
+	header .menuToggle{
+		display: none;
+		height: 50px;
+		margin-left: 10px;
+	}
+
+	.sectionTitle {
+		text-align: center;
+
+		font-size: 1.8em;
+		line-height: 1.5em;
+
+		color: #3973a3;
+		font-weight: 300;
+	}
+
+	.row {
+		flex-direction: column;
+	}
+
+
+	.column {
+		width: 100%	;
+	}
+
+	#figAvPropos {
+		background: url(images/land.jpg);
+		height: 15vh;
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+	}
+
 	.banner {
 	height: 50vh;
 	}
-}
 
-@media (max-width: 700px){
-    .banner {
-    height: 40vh;
 
+    header .navigation {
+    	display: none;
+    }
+
+    header .navigation li a {
+    	color: #111;
+    }
+
+    header .menuToggle {
+    	display: flex;
+    	justify-content: right;
     }
 }
 
-@media (max-width:500px){
-    .banner {
-    height: 35vh;
+@media (max-width:480px){
+	section {
+		padding: 15px;
+	}
 
-    }
+	.rowDa {
+		flex-direction: column;
+	}
 
-@media (max-width:380px){
+	.columnDa {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.row {
+		flex-direction: column;
+	}
+
     .banner {
     height: 30vh;
-
     }
+}
+
+
+/* header animation */
+
+header .navigation.active{
+    width: 100%;
+    color: #111;
+    height: calc(100% - 68px);
+    position: fixed;
+    top: 68px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+}
+
+.menuToggle{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: url(images/menu.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.menuToggle.active{
+    background: url(images/close.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
 }

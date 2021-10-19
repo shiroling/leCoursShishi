@@ -6,7 +6,7 @@ P ZX
 RN
 RV NO_IO
 
-U main%b		main.adb		df6aac19 NE OO SU IL
+U main%b		main.adb		ac796117 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
@@ -26,7 +26,7 @@ D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20211018220928 87d5f0d0 main%b
+D main.adb		20211019102952 f4c63dde main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -51,41 +51,53 @@ X 3 a-inteio.ads
 18K13*Integer_Text_IO[11|46] 15|1w10 1r35
 X 10 a-textio.ads
 58K13*Text_IO 725e16 15|2w10 2r35
-262U14*New_Line 15|98s9
+506U14*Put_Line 15|120s41
 X 11 a-tiinio.ads
 80U14*Put 15|22s33[3|18]
 X 15 main.adb
-4U11*main 4b11 105l5 105t9
+4U11*main 4b11 137l5 137t9
 6i9 MAX_LENGTH{integer} 7r40
 7A14 TabEntiers(integer)<integer> 12r30
-10R14 Tableau_T 14e19 17r42 27r76 45r34 61r64 75r46 91r16
-12a17 tab{7A14} 22r40 28r36 32m27 35r43 36m35 50r34 52r44 53r50 67r38 80r66
-. 83r49 94m14
-13i17 nbElements{integer} 21r38 34r37 40m27 40r41 51r36 66r36 79r36 95m14
-17U19 afficherTableau 17b19 17>35 25l21 25t36 97s9 101s9
+10R14 Tableau_T 14e19 17r42 27r76 44r34 60r64 74r46 90r47 108r40 108r58 110r22
+. 127r16
+12a17 tab{7A14} 22r40 28r36 32m27 35r43 36m35 49r34 51r44 52r50 66r38 79r66
+. 82r49 95r38 116r49 117m45 117r56 130m14
+13i17 nbElements{integer} 21r38 34r37 40m27 40r41 50r36 65r36 78r36 94r36
+. 97r46 112m29 115r37 119m45 119r62 131m14
+17U19 afficherTableau 17b19 17>35 25l21 25t36 133s9 134s9
 17r35 t{10R14} 21r36 22r38
 18i17 i{integer} 20m25 21r31 22r45 23m33 23r38
-27U19 insererValeur 27b19 27>33 27>48 27=66 41l21 41t34 99s9
+27U19 insererValeur 27b19 27>33 27>48 27=66 41l21 41t34
 27i33 v{integer} 32r39
 27i48 seek{integer} 28r40 32r31 33r33
 27r66 t{10R14} 28r34 32m25 34r35 35r41 36m33 40m25 40r39
 28i17 temp1{integer} 36r44 37m33
 29i17 temp2{integer} 35m33 37r41
 29i24 i{integer} 33m25 34r31 35r47 36r39 38m33 38r36
-45V18 maximum{integer} 45b18 45>27 59l21 59t28
-45r27 t{10R14} 50r32 51r34 52r42 53r48
-46i17 i{integer} 49m25 51r31 52r48 53r54 56m33 56r37
-47i17 temp{integer} 50m25 52r36 53m41 58r32
-61V18 compterOccurences{integer} 61b18 61>37 61>57 73l21 73t38 80s46
-61i37 number{integer} 67r47
-61r57 t{10R14} 66r34 67r36
-62i17 i{integer} 65m25 66r31 67r42 70m33 70r37
-63i17 temp{integer} 68m41 68r48 72r32
-75V18 elementPlusFrequent{integer} 75b18 75>39 89l21 89t40
-75r39 t{10R14} 79r34 80r64 80r74 83r47
-76i17 i{integer} 78m25 79r31 80r70 83r53 86m33 86r37
-76i20 max{integer} 83m41 88r32
-76i25 occurences{integer} 78m31 80m33 81r36 82r48
-76i37 temp{integer} 81r48 82m41
-91r9 enrT{10R14} 94m9 95m9 97r25 99m31 99r31 101r25
+44V18 maximum{integer} 44b18 44>27 58l21 58t28
+44r27 t{10R14} 49r32 50r34 51r42 52r48
+45i17 i{integer} 48m25 50r31 51r48 52r54 55m33 55r37
+46i17 temp{integer} 49m25 51r36 52m41 57r32
+60V18 compterOccurences{integer} 60b18 60>37 60>57 72l21 72t38 79s46
+60i37 number{integer} 66r47
+60r57 t{10R14} 65r34 66r36
+61i17 i{integer} 64m25 65r31 66r42 69m33 69r37
+62i17 temp{integer} 67m41 67r48 71r32
+74V18 elementPlusFrequent{integer} 74b18 74>39 88l21 88t40
+74r39 t{10R14} 78r34 79r64 79r74 82r47
+75i17 i{integer} 77m25 78r31 79r70 82r53 85m33 85r37
+75i20 max{integer} 82m41 87r32
+75i25 occurences{integer} 77m31 79m33 80r36 81r48
+75i37 temp{integer} 80r48 81m41
+90V18 isInto{integer} 90b18 90>25 90>41 102l21 102t27 116s40
+90i25 nb{integer} 95r47
+90r41 t{10R14} 94r34 95r36 97r44
+91i17 i{integer} 93m25 94r31 95r42 97m41 99m33 99r37
+91i20 isIn{integer} 93m31 96m41 101r32
+108V18 valeursUniques{10R14} 108b18 108>34 125l21 125t35 134s25
+108r34 t{10R14} 115r35 116r47 117r54
+109i17 i{integer} 114m25 115r31 116r53 117r60 122m33 122r37
+109i20 j{integer} 114m31 117r49 118m41 118r45
+110r17 tob{10R14} 112m25 116r57 117m41 119m41 119r58 124r24
+127r9 enrT{10R14} 130m9 131m9 133r25 134r40
 

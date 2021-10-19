@@ -3,7 +3,7 @@ with Ada.Text_IO;         use Ada.Text_IO;
 
 procedure main is
 
-	MAX_LENGTH : constant Integer := 15;
+	MAX_LENGTH : constant Integer := 25;
 	type TabEntiers is array (0 .. MAX_LENGTH-1) of Integer;
 
 	-- Definition du type Tableau_T
@@ -39,7 +39,6 @@ procedure main is
 			end loop;
 			t.nbElements:=t.nbElements+1;
 		end insererValeur;
-
 
 
 	function maximum (t : in Tableau_T) return Integer is
@@ -88,18 +87,51 @@ procedure main is
 			return max;
 		end elementPlusFrequent;
 
+	function isInto(nb: in Integer; t: in Tableau_T)return Integer is
+		i, isIn: Integer;
+		begin
+			i:=0; isIn:=0;
+			while i< t.nbElements loop
+				if t.tab(i) = nb then
+					isIn:= 1;
+					i:=t.nbElements;
+				end if;
+				i:= i+1;
+			end loop;
+			return isIn;
+		end isInto;
+
+
+
+
+
+	function valeursUniques (t: in Tableau_T) return Tableau_T is
+		i, j: Integer;
+		tob: Tableau_T;
+		begin
+			tob.nbElements:= 0;
+
+			i:=0; j:=0;
+			while i < t.nbElements loop
+				if 0 = isInto(t.tab(i), tob) then
+					tob.tab(j):= t.tab(i);
+					j:= j+1;
+					tob.nbElements:= tob.nbElements+1;
+					put_line("charged a value");
+				end if;
+				i:= i+1;
+			end loop;
+		return tob;
+		end valeursUniques;
+
 	enrT : Tableau_T;
 
 begin
-	enrT.tab := (64,9,2,5, others => 0);
-	enrT.nbElements:=4;
+	enrT.tab := (64,9,2,5, 5, 3, 2, 1, others => 0);
+	enrT.nbElements:=8;
 
 	afficherTableau(enrT);
-	new_line;
-	insererValeur(255, 3, enrT);
-
-	afficherTableau(enrT);
-
+	afficherTableau(valeursUniques(enrT));
 
 
 end main;

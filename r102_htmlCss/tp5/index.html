@@ -8,42 +8,56 @@
 <body>
 
 	<header>
-		<p>oui</p>
+		<div class="menuIcon">
+			<div class="menuToggle" onclick="toggleMenu()"></div>
+			<p id="sayMenu" onclick="toggleMenu()">Menu</p>
+		</div>
+        
+        <ul class="navigation" id="fixed">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#testimonials">lorem</a></li>
+            <li><a href="#contact">ipsum</a></li>
+        </ul>
+        <ul class="navigation" id="onMenu">
+            <li><a href="#banner" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About us</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu()">lorem</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">ipsum</a></li>
+        </ul>
 	</header>
 
-	
 	<section class="banner">
 	</section>
 
-	<section class="content">
+	
+	<section class="wideArticle">
 		<div class="row">
-			<div class="content1">
-				
+			<div class="column" id="figAvPropos">
 			</div>
-			<div class="content1">
-				<div class="imgBox">
-					<img src="wall.jpg" align="image d'un loup de dos">
-				</div>
+			<div class="column" id="text">
+				<h2 class="articleTitle">Titre de fou !</h2>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae euismod eros. Aenean ut lacus sem. Nunc nec vestibulum enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus eleifend eros ipsum, sit amet consequat mauris semper et. Sed fermentum vitae odio ac bibendum. Ut accumsan convallis neque, at laoreet metus rutrum eu.
+				</p>
 			</div>
 		</div>
-		<p>		
-
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla turpis sit amet ipsum elementum dapibus. Sed purus lorem, aliquam in nibh sed, rhoncus tempus neque. Cras ligula ligula, vestibulum in quam sagittis, hendrerit porta nunc. Nunc suscipit mauris tellus, nec consectetur nisl iaculis nec. Donec venenatis leo molestie tristique volutpat. Duis tempor mollis erat, quis rhoncus elit fermentum a. Nam in ultricies enim, lobortis sollicitudin nisi. Nunc pulvinar ac nibh nec laoreet. In vestibulum, justo sit amet congue ornare, tellus ante laoreet velit, vitae congue turpis mauris quis lectus. Donec tincidunt dictum justo quis commodo. In iaculis tellus sodales, ultrices nibh non, gravida massa. Ut ultricies lacus turpis, eget fringilla ipsum viverra non. Suspendisse maximus neque eu ante sollicitudin, sed dictum nunc aliquam. Praesent vulputate lorem eu libero semper facilisis. Praesent semper magna lorem, a faucibus lacus imperdiet et. Curabitur laoreet a neque in pharetra.
-
-			Duis tincidunt feugiat erat, non imperdiet lacus sodales cursus. Phasellus eu ex a enim tristique ultricies eu ut metus. Fusce ullamcorper magna ut arcu efficitur scelerisque. Nam nec tristique nisl. Donec maximus lorem massa, id tristique ante fermentum et. Ut luctus ultrices massa, a pulvinar mauris maximus in. Nullam porta justo arcu, ut bibendum mauris pharetra at. Vestibulum volutpat tempor odio id tincidunt. Vivamus finibus lectus id metus scelerisque fermentum. Aliquam vulputate purus turpis, vel sollicitudin tortor pharetra sit amet. Mauris laoreet nibh sagittis velit aliquam, suscipit aliquet nisi viverra. Mauris ac bibendum eros. Suspendisse mollis finibus tristique. Duis vitae nulla et quam tempor posuere.
-
-			Ut quis eleifend augue. Maecenas aliquet arcu vulputate cursus accumsan. Integer ac quam quis tortor ultricies eleifend a sit amet turpis. Nam eu tristique mauris. Donec ut velit molestie, rutrum nulla in, posuere nunc. Etiam facilisis lorem sed magna porttitor porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec sit amet libero ultrices odio tincidunt commodo. Phasellus vel ornare sem, at elementum nisi. Cras id placerat metus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam ac mauris lorem. Aliquam eu mi dolor.
-
-			Nulla molestie pulvinar rhoncus. Maecenas non sollicitudin ante. Nulla in erat eu lectus maximus pellentesque eu at dolor. Vestibulum nec sem sed nibh imperdiet ultrices. Phasellus non mauris ac turpis aliquet fringilla. Fusce ac bibendum mauris. Ut porttitor porttitor sagittis. Nulla vel augue eget dolor fringilla congue quis eget erat.
-
-			Nulla cursus elit a pulvinar aliquam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi est turpis, bibendum non est non, tincidunt rhoncus mi. Nullam bibendum leo ex, ac accumsan nulla aliquet ut. In molestie lectus enim, sit amet tincidunt ipsum varius et. Integer non odio in risus pharetra condimentum id ut tellus. Duis sed ornare leo, sed congue lacus. Donec viverra consectetur sem. Suspendisse potenti. Vivamus a maximus ex. Aliquam dui ligula, placerat accumsan urna eget, dictum molestie odio. Proin ex augue, lacinia a leo sit amet, condimentum eleifend elit. Donec consectetur non velit eu tempus. Sed sapien nisi, facilisis et pharetra quis, sollicitudin vitae lorem. Duis ultrices velit eros, in pharetra felis suscipit sit amet.
-
-			Vestibulum sed sodales lectus, ut auctor nunc. Suspendisse quam lectus, fringilla nec purus vitae, vulputate scelerisque massa. In in efficitur turpis, non feugiat libero. Proin vel dolor placerat, mattis metus quis, pretium augue. Aliquam nec sollicitudin nisl, at lobortis odio. Vestibulum ligula ipsum, vestibulum vel nisi sed, porttitor vestibulum arcu. Duis urna tellus, ultricies molestie turpis non, malesuada vulputate nulla. In hac habitasse platea dictumst. Proin pellentesque ac est nec vestibulum. Nam viverra cursus nisi vitae lacinia. Donec sed tortor eu urna ultrices luctus.
-
-			Donec rutrum sapien nec eros vehicula, eget rutrum lacus convallis. Cras pretium mauris metus. Nam at scelerisque neque. Mauris dignissim odio odio, ut euismod orci pharetra ullamcorper. Sed eget facilisis eros. Sed ut molestie turpis, a hendrerit orci. Vestibulum turpis felis, commodo non interdum eu, tincidunt et lacus. Praesent hendrerit suscipit urna vel tempor. Suspendisse lacinia lacus vel purus luctus vehicula. Curabitur ornare felis at vulputate tristique. Sed dignissim in libero at tempor. Sed aliquam ex fringilla ante pellentesque mattis. Nulla convallis porttitor ligula, in tincidunt velit varius nec.
-
-			Curabitur posuere nisi velit, sit amet vehicula ante lacinia ut. Sed ultrices pulvinar metus, et sollicitudin lectus egestas in. Cras ultricies iaculis elementum. Aliquam a dolor ligula. Vestibulum gravida porta diam, nec vulputate ligula aliquet sed. Nullam at lectus mauris. Etiam finibus, enim vitae eleifend laoreet, justo ligula commodo purus, at lacinia elit elit non lacus. In porta enim a augue fringilla, quis tincidunt mauris tempor. Praesent aliquet nibh vel volutpat commodo. Fusce aliquam vel nisl non sodales. Nunc eu eros et nulla aliquam pulvinar luctus eget dolor. Nulla eros ipsum, aliquam quis est vel, iaculis commodo dui. Nulla nec porttitor turpis, eget aliquam augue. 
-		</p>
+	</section>
+	<section class="doubleArticle">
+		<div class="rowDa">
+			<div class="columnDa" id="dbArticle1">
+				<h2 class="articleTitle">Titre de fou !</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae euismod eros. Aenean ut lacus sem. Nunc nec vestibulum enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+					</p>
+			</div>
+			<div class="columnDa" id="dbArticle2">
+				<h2 class="articleTitle">Titre de fou !</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae euismod eros. Aenean ut lacus sem. Nunc nec vestibulum enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+				</p>
+			</div>
+		</div>
 	</section>
 	<div id="foot">
 		<p>lol</p>
@@ -51,11 +65,19 @@
 
 
 	<script>
+
 		window.addEventListener('scroll', function(){
             const header = document.querySelector('header');
             header.classList.toggle("sticky", window.scrollY > 0);
         	}
         );
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
 	</script>
 </body>
 </html>
