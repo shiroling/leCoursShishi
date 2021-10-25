@@ -11,6 +11,7 @@ def sommegeo(x, n):
     return (1-x**(n+1))/(1-x)
 
 def calculLog(x, n):
+
     
 
 
