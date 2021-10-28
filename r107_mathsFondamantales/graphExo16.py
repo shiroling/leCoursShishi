@@ -9,9 +9,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 plt.figure(1)
-t= np.arange(0, 1.1, 0.01)
-plt.plot(t, t**1.1, 'r',label="x^1.1")
-plt.plot(t, t**2, 'c', label="x^2")
-plt.plot(t, t**0.6, 'g', label="x^0.6")
+t= np.arange(-2.5, 2.5)
+
+plt.loglog(t, np.cos(t), 'r',label="oui")
+plt.loglog(t, 1, ':b',label="oui")
+plt.loglog(t, np.cos(t), 'r',label="oui")
+plt.loglog(t, np.cos(t), 'r',label="oui")
+
 plt.legend()
 plt.show()
+
