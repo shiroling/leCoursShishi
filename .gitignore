@@ -1,3 +1,30 @@
+# Don't track content of these folders
+r112_ppp/
 
-r105_modélesConceptuelsDonnées/td10.lo1
-r101_InitiationDeveloppement/ada/tp5/lesEnregistrement.adb
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.ali
+*.so
+
+*.so
+
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
