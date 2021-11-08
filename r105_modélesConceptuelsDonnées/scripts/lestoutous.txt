@@ -1,0 +1,52 @@
+Sub Create_Tables()
+
+DoCmd.RunSQL "CREATE TABLE race(" & _
+   "Id_race COUNTER," & _
+   "intitulé VARCHAR(50)," & _
+   "origine VARCHAR(50)," & _
+   "descriptif TEXT," & _
+   "PRIMARY KEY(Id_race)" & _
+");"   
+
+DoCmd.RunSQL "CREATE TABLE proprio(" & _
+   "Id_proprio COUNTER," & _
+   "nom VARCHAR(50)," & _
+   "ville VARCHAR(50)," & _
+   "adresse VARCHAR(50)," & _
+   "CP CHAR(5)," & _
+   "telephone VARCHAR(20)," & _
+   "PRIMARY KEY(Id_proprio)" & _
+");"   
+
+DoCmd.RunSQL "CREATE TABLE Concours(" & _
+   "Id_Concours COUNTER," & _
+   "dateC DATE," & _
+   "ville VARCHAR(50)," & _
+   "nb_primées BYTE," & _
+   "nb_participants SMALLINT," & _
+   "PRIMARY KEY(Id_Concours)" & _
+");"   
+
+DoCmd.RunSQL "CREATE TABLE chiens(" & _
+   "Id_chiens COUNTER," & _
+   "nom VARCHAR(50)," & _
+   "date_naissance DATE," & _
+   "sexe CHAR(1)," & _
+   "date_aquisition DATE," & _
+   "Id_proprio INT NOT NULL," & _
+   "Id_race INT NOT NULL," & _
+   "PRIMARY KEY(Id_chiens)," & _
+   "FOREIGN KEY(Id_proprio) REFERENCES proprio(Id_proprio)," & _
+   "FOREIGN KEY(Id_race) REFERENCES race(Id_race)" & _
+");"   
+
+DoCmd.RunSQL "CREATE TABLE participer(" & _
+   "Id_chiens INT," & _
+   "Id_Concours INT," & _
+   "Classement BYTE," & _
+   "PRIMARY KEY(Id_chiens, Id_Concours)," & _
+   "FOREIGN KEY(Id_chiens) REFERENCES chiens(Id_chiens)," & _
+   "FOREIGN KEY(Id_Concours) REFERENCES Concours(Id_Concours)" & _
+");"   
+
+End Sub
