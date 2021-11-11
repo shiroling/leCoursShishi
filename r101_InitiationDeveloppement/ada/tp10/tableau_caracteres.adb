@@ -35,7 +35,6 @@ package body Tableau_Caracteres is
    -- entraine 0 <= n <=TAILLE_MAX
    -- lève l’exception DEBORDEMENT si plus de TAILLE_MAX entiers sont entrés
    procedure lireFormat2 (tab : out Tab_Caracteres; n : out Integer) is
-      i: Integer;
       nb: Integer;
       begin
          put("Combien de cases va t'on remplir?");
@@ -118,9 +117,26 @@ package body Tableau_Caracteres is
 
          i:= 0;
          while i <n loop
-            put(tab(i));
+            put("element " & Integer'Image(i) & " :" &  tab(i));
             i:= i+1;
          end loop;
       end ecrire;
+
+      procedure rechercher_occurrence(tab: in Tab_Caracteres; n:in integer; x:in Character;
+                                     trouve: out boolean; rang: out integer) is
+         i: Integer;
+         begin
+         if n< 0 or n > TAILLE_MAX then
+            raise TRANCHE_INVALIDE;
+         end if;
+
+            i:= 0;
+            while i< n loop
+               if tab(i) = x then
+                  trouve:= True;
+                  rang:= i;
+               end if;
+               i:= i+1;
+            end loop;
 
 end Tableau_Caracteres;

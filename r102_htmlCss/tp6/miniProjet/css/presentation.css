@@ -1,0 +1,69 @@
+main, div, p{
+    border: 1px solid black;
+}
+
+h1{
+    border: 1px solid black;
+    margin : 5px;
+}
+
+.wrapper{
+    display : flex;
+}
+
+.text{
+    margin : 5px;
+}
+
+.validation{
+    display : inline-flex;
+    margin : 5px;
+    text-align : justify;
+    padding : 5px;
+}
+
+table{
+    display : inline-flex;
+    justify-content : flex-end;
+    margin : 5px;
+    border-collapse : collapse;
+    text-align : center;
+}
+
+td, th{
+    border : 1px solid black;
+}
+
+.bloc-haut{
+    display : inline-flex;
+    width : 98%;
+    margin : 5px;
+}
+
+img{
+    display : inline-flex;
+    margin : 5px;
+    width : 25%;
+}
+
+.bloc{
+    display : inline-flex;
+    justify-content : space-evenly;
+    flex-flow : wrap;
+    width : 70%;
+    margin : 5px;
+}
+
+.bloc-bas{
+    display : inline-flex;
+    justify-content : space-between;
+    width : 98%;
+    margin : 5px;
+}
+
+.ressource{
+    padding-left : 10%;
+    padding-right : 10%;
+    padding-top : 3%;
+    padding-bottom : 3%;
+}

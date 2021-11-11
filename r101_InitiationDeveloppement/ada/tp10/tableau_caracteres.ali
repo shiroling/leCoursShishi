@@ -1,4 +1,4 @@
-V "GNAT Lib v10"
+V "GNAT Lib v2021"
 A -g
 P ZX
 
@@ -7,47 +7,59 @@ RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_EXCEPTIONS
 RV NO_IO
 RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_ELABORATION_CODE
-RV SPARK_05
 
-U tableau_caracteres%b	tableau_caracteres.adb	0395f4f0 NE OO PK
+U tableau_caracteres%b	tableau_caracteres.adb	f2fb0fa0 NE OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
 U tableau_caracteres%s	tableau_caracteres.ads	db3b510c EE OO PK
-Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 Z system%s		system.ads		system.ali
 Z system.exception_table%s  s-exctab.adb	s-exctab.ali
 Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 
-D ada.ads		20200723063517 76789da1 ada%s
-D a-except.ads		20200723063517 a7106115 ada.exceptions%s
-D a-inteio.ads		20200723063517 f64b89a4 ada.integer_text_io%s
-D a-ioexce.ads		20200723063517 e4a01f64 ada.io_exceptions%s
-D a-stream.ads		20200723063517 119b8fb3 ada.streams%s
-D a-tags.ads		20200723063517 491b781d ada.tags%s
-D a-textio.ads		20200723063517 aef4d56d ada.text_io%s
-D a-tiinio.ads		20200723063517 390edddb ada.text_io.integer_io%s
-D a-unccon.ads		20200723063517 0e9b276f ada.unchecked_conversion%s
-D interfac.ads		20200723063517 5ab55268 interfaces%s
-D i-cstrea.ads		20200723063517 e53d8b8e interfaces.c_streams%s
-D system.ads		20200723063517 4635ec04 system%s
-D s-crtl.ads		20200723063517 0ebbdb71 system.crtl%s
-D s-exctab.ads		20200723063517 54135002 system.exception_table%s
-D s-ficobl.ads		20200723063517 078245e4 system.file_control_block%s
-D s-parame.ads		20200723063517 48ec542b system.parameters%s
-D s-secsta.ads		20200723063517 20bbe636 system.secondary_stack%s
-D s-soflin.ads		20200723063517 a7318a92 system.soft_links%s
-D s-stache.ads		20200723063517 a37c21ec system.stack_checking%s
-D s-stalib.ads		20200723063517 09bd3940 system.standard_library%s
-D s-stoele.ads		20200723063517 2dc34a04 system.storage_elements%s
-D s-traent.ads		20200723063517 005bf670 system.traceback_entries%s
-D s-unstyp.ads		20200723063517 34867c83 system.unsigned_types%s
-D s-wchcon.ads		20200723063517 1b7d22d2 system.wch_con%s
-D tableau_caracteres.ads  20211108200424 db3b510c tableau_caracteres%s
-D tableau_caracteres.adb  20211108201431 8011f935 tableau_caracteres%b
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca4.ads		20210520051132 7e642b20 system.concat_4%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D tableau_caracteres.ads  20211108203304 db3b510c tableau_caracteres%s
+D tableau_caracteres.adb  20211109101306 717f0265 tableau_caracteres%b
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z s b [lireformat1 tableau_caracteres 13 14 none]
 G c Z s b [lireformat2 tableau_caracteres 18 14 none]
@@ -56,46 +68,44 @@ G c Z s b [lireformat3b tableau_caracteres 28 14 none]
 G c Z s b [ecrire tableau_caracteres 33 14 none]
 G c Z s s [Ttab_caracteresBIP tableau_caracteres 8 4 none]
 X 1 ada.ads
-16K9*Ada 20e8 26|1r6 1r23 2r6 2r31
+16K9*Ada 20e8 34|1r6 1r23 2r6 2r31
 X 3 a-inteio.ads
-18K13*Integer_Text_IO[8|46] 26|2w10 2r35
-X 7 a-textio.ads
-57K13*Text_IO 727e16 26|1w10 1r27
-381U14*Get 26|19s13 51s13 67s10 77s13 90s10 93s10 103s13
-392U14*Put 26|121s13
-465U14*Put 26|18s13 22s13 41s10 50s13 66s10 76s13 92s10 102s13
-508U14*Put_Line 26|65s10 89s10
-X 8 a-tiinio.ads
-59U14*Get 26|23s13[3|18] 42s10[3|18]
-X 25 tableau_caracteres.ads
-2K9*Tableau_Caracteres 37l5 37e23 26|4b14 126l5 126t23
-4X4*DEBORDEMENT 26|44r19 72r22 98r22
-5X4*TRANCHE_INVALIDE 26|116r19
-7i4*TAILLE_MAX{integer} 8r39 26|16r20 43r26 48r20 71r20 97r20 115r26
-8A9*Tab_Caracteres(character)<integer> 13r37 18r37 23r38 28r38 33r31 26|11r37
-. 37r37 60r38 85r38 112r31
-13U14*lireFormat1 13<27 13<53 26|11b14 30l11 30t22
-13a27 tab{8A9} 26|11b27 19m17 19r17
-13i53 n{integer} 26|11b53 15m7 16r16 19r21 25m13 25r17
-18U14*lireFormat2 18<27 18<53 26|37b14 54l11 54t22
-18a27 tab{8A9} 26|37b27 51m17 51r17
-18i53 n{integer} 26|37b53 47m10 48r16 48r35 51r21 52m13 52r17
-23U14*lireFormat3a 23<28 23<54 26|60b14 80l11 80t23
-23a28 tab{8A9} 26|60b28 75m13
-23i54 n{integer} 26|60b54 69m10 71r16 75r17 78m13 78r17
-28U14*lireFormat3b 28<28 28<54 26|85b14 106l11 106t23
-28a28 tab{8A9} 26|85b28 101m13
-28i54 n{integer} 26|85b54 95m10 97r16 101r17 104m13 104r17
-33U14*ecrire 33>22 33>47 26|112b14 124l11 124t17
-33a22 tab{8A9} 26|112b22 121r17
-33i47 n{integer} 26|112b47 115r13 115r23 120r19
-X 26 tableau_caracteres.adb
+18K13*Integer_Text_IO[11|46] 34|2w10 2r35
+X 10 a-textio.ads
+58K13*Text_IO 725e16 34|1w10 1r27
+379U14*Get 34|19s13 50s13 66s10 76s13 89s10 92s10 102s13
+463U14*Put 34|18s13 22s13 40s10 49s13 65s10 75s13 91s10 101s13
+506U14*Put_Line 34|64s10 88s10 120s13
+X 11 a-tiinio.ads
+59U14*Get 34|23s13[3|18] 41s10[3|18]
+X 33 tableau_caracteres.ads
+2K9*Tableau_Caracteres 37l5 37e23 34|4b14 125l5 125t23
+4X4*DEBORDEMENT 34|43r19 71r22 97r22
+5X4*TRANCHE_INVALIDE 34|115r19
+7i4*TAILLE_MAX{integer} 8r39 34|16r20 42r26 47r20 70r20 96r20 114r26
+8A9*Tab_Caracteres(character)<integer> 13r37 18r37 23r38 28r38 33r31 34|11r37
+. 37r37 59r38 84r38 111r31
+13U14*lireFormat1 13<27 13<53 34|11b14 30l11 30t22
+13a27 tab{8A9} 34|11b27 19m17 19r17
+13i53 n{integer} 34|11b53 15m7 16r16 19r21 25m13 25r17
+18U14*lireFormat2 18<27 18<53 34|37b14 53l11 53t22
+18a27 tab{8A9} 34|37b27 50m17 50r17
+18i53 n{integer} 34|37b53 46m10 47r16 47r35 50r21 51m13 51r17
+23U14*lireFormat3a 23<28 23<54 34|59b14 79l11 79t23
+23a28 tab{8A9} 34|59b28 74m13
+23i54 n{integer} 34|59b54 68m10 70r16 74r17 77m13 77r17
+28U14*lireFormat3b 28<28 28<54 34|84b14 105l11 105t23
+28a28 tab{8A9} 34|84b28 100m13
+28i54 n{integer} 34|84b54 94m10 96r16 100r17 103m13 103r17
+33U14*ecrire 33>22 33>47 34|111b14 123l11 123t17
+33a22 tab{8A9} 34|111b22 120r62
+33i47 n{integer} 34|111b47 114r13 114r23 119r19
+X 34 tableau_caracteres.adb
 12i7 balise{integer} 16r35 23m17
-38i7 i{integer}
-39i7 nb{integer} 42m14 43r13 43r22 48r39
-61e7 val{character} 67m14 70r17 75r22 77m17
-62e7 marqueur{character} 64m10 70r24
-86e7 val{character} 93m14 96r17 101r22 103m17
-87e7 marqueur{character} 90m14 96r24
-113i7 i{integer} 119m10 120r16 121r21 122m13 122r17
+38i7 nb{integer} 41m14 42r13 42r22 47r39
+60e7 val{character} 66m14 69r17 74r22 76m17
+61e7 marqueur{character} 63m10 69r24
+85e7 val{character} 92m14 95r17 100r22 102m17
+86e7 marqueur{character} 89m14 95r24
+112i7 i{integer} 118m10 119r16 120r49 120r66 121m13 121r17
 

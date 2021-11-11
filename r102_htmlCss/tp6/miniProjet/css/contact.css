@@ -1,0 +1,63 @@
+main, div, p{
+    border: 1px solid black;
+}
+
+h1{
+    border: 1px solid black;
+    margin : 5px;
+}
+
+.wrapper{
+    display : inline-flex;
+    justify-content : space-between;
+    width : 100%;
+}
+
+.form{
+    display : flex;
+    flex-flow : column;
+    width : 38%;
+    margin : 5px;
+}
+
+form{
+    width : 100%;
+    flex-flow : column;
+    display : flex;
+}
+
+.message{
+    width : 58%;
+    margin : 5px;
+}
+
+.second-part {
+    display : inline-flex;
+    width : 100%;
+    justify-content : space-between;
+}
+
+#photo-iut{
+    max-height : 400px;
+    width : 38%;
+    margin : 5px;
+}
+
+.wrapper-2{
+    display : flex;
+    flex-flow : column;
+    width : 58%;
+    margin : 5px;
+}
+
+#maps{
+    max-height : 300px;
+    width : 100%;
+    max-width : 600px;
+    margin : 5px;
+}
+
+.adresse{
+    padding : 10px;
+    margin : 5px;
+}
