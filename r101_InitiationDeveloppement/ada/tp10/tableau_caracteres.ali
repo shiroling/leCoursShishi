@@ -10,7 +10,7 @@ RV NO_STANDARD_STORAGE_POOLS
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_ELABORATION_CODE
 
-U tableau_caracteres%b	tableau_caracteres.adb	f2fb0fa0 NE OO PK
+U tableau_caracteres%b	tableau_caracteres.adb	199707b1 NE OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -19,7 +19,7 @@ W ada.text_io%s		a-textio.adb		a-textio.ali
 Z system.concat_4%s	s-conca4.adb		s-conca4.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
-U tableau_caracteres%s	tableau_caracteres.ads	db3b510c EE OO PK
+U tableau_caracteres%s	tableau_caracteres.ads	1eb2ac95 EE OO PK
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 Z system%s		system.ads		system.ali
 Z system.exception_table%s  s-exctab.adb	s-exctab.ali
@@ -57,8 +57,8 @@ D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
 D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
-D tableau_caracteres.ads  20211108203304 db3b510c tableau_caracteres%s
-D tableau_caracteres.adb  20211109101306 717f0265 tableau_caracteres%b
+D tableau_caracteres.ads  20211114150652 1eb2ac95 tableau_caracteres%s
+D tableau_caracteres.adb  20211114150558 5f9af7ed tableau_caracteres%b
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z s b [lireformat1 tableau_caracteres 13 14 none]
@@ -66,6 +66,8 @@ G c Z s b [lireformat2 tableau_caracteres 18 14 none]
 G c Z s b [lireformat3a tableau_caracteres 23 14 none]
 G c Z s b [lireformat3b tableau_caracteres 28 14 none]
 G c Z s b [ecrire tableau_caracteres 33 14 none]
+G c Z s b [rechercher_occurrence tableau_caracteres 37 14 none]
+G c Z s b [indice_valeur_minimum tableau_caracteres 40 13 none]
 G c Z s s [Ttab_caracteresBIP tableau_caracteres 8 4 none]
 X 1 ada.ads
 16K9*Ada 20e8 34|1r6 1r23 2r6 2r31
@@ -73,39 +75,54 @@ X 3 a-inteio.ads
 18K13*Integer_Text_IO[11|46] 34|2w10 2r35
 X 10 a-textio.ads
 58K13*Text_IO 725e16 34|1w10 1r27
-379U14*Get 34|19s13 50s13 66s10 76s13 89s10 92s10 102s13
-463U14*Put 34|18s13 22s13 40s10 49s13 65s10 75s13 91s10 101s13
-506U14*Put_Line 34|64s10 88s10 120s13
+262U14*New_Line 34|28s10 52s10 79s10 106s10
+379U14*Get 34|19s13 49s13 66s10 76s13 90s10 93s10 103s13
+463U14*Put 34|18s13 22s13 39s10 48s13 65s10 75s13 92s10 102s13
+506U14*Put_Line 34|64s10 89s10 122s13
 X 11 a-tiinio.ads
-59U14*Get 34|23s13[3|18] 41s10[3|18]
+59U14*Get 34|23s13[3|18] 40s10[3|18]
 X 33 tableau_caracteres.ads
-2K9*Tableau_Caracteres 37l5 37e23 34|4b14 125l5 125t23
-4X4*DEBORDEMENT 34|43r19 71r22 97r22
-5X4*TRANCHE_INVALIDE 34|115r19
-7i4*TAILLE_MAX{integer} 8r39 34|16r20 42r26 47r20 70r20 96r20 114r26
-8A9*Tab_Caracteres(character)<integer> 13r37 18r37 23r38 28r38 33r31 34|11r37
-. 37r37 59r38 84r38 111r31
-13U14*lireFormat1 13<27 13<53 34|11b14 30l11 30t22
+2K9*Tableau_Caracteres 42l5 42e23 34|4b14 170l5 170t23
+4X4*DEBORDEMENT 34|42r19 71r22 98r22
+5X4*TRANCHE_INVALIDE 34|117r19 137r16 157r19
+7i4*TAILLE_MAX{integer} 8r39 34|16r20 41r26 46r20 70r20 97r20 116r26 136r22
+. 156r25
+8A9*Tab_Caracteres(character)<integer> 13r37 18r37 23r38 28r38 33r31 37r44
+. 40r43 34|11r37 36r37 59r38 85r38 113r31 132r44 152r43
+13U14*lireFormat1 13<27 13<53 34|11b14 29l11 29t22
 13a27 tab{8A9} 34|11b27 19m17 19r17
 13i53 n{integer} 34|11b53 15m7 16r16 19r21 25m13 25r17
-18U14*lireFormat2 18<27 18<53 34|37b14 53l11 53t22
-18a27 tab{8A9} 34|37b27 50m17 50r17
-18i53 n{integer} 34|37b53 46m10 47r16 47r35 50r21 51m13 51r17
-23U14*lireFormat3a 23<28 23<54 34|59b14 79l11 79t23
+18U14*lireFormat2 18<27 18<53 34|36b14 53l11 53t22
+18a27 tab{8A9} 34|36b27 49m17 49r17
+18i53 n{integer} 34|36b53 45m10 46r16 46r35 49r21 50m13 50r17
+23U14*lireFormat3a 23<28 23<54 34|59b14 80l11 80t23
 23a28 tab{8A9} 34|59b28 74m13
 23i54 n{integer} 34|59b54 68m10 70r16 74r17 77m13 77r17
-28U14*lireFormat3b 28<28 28<54 34|84b14 105l11 105t23
-28a28 tab{8A9} 34|84b28 100m13
-28i54 n{integer} 34|84b54 94m10 96r16 100r17 103m13 103r17
-33U14*ecrire 33>22 33>47 34|111b14 123l11 123t17
-33a22 tab{8A9} 34|111b22 120r62
-33i47 n{integer} 34|111b47 114r13 114r23 119r19
+28U14*lireFormat3b 28<28 28<54 34|85b14 107l11 107t23
+28a28 tab{8A9} 34|85b28 101m13
+28i54 n{integer} 34|85b54 95m10 97r16 101r17 104m13 104r17
+33U14*ecrire 33>22 33>47 34|113b14 125l11 125t17
+33a22 tab{8A9} 34|113b22 122r62
+33i47 n{integer} 34|113b47 116r13 116r23 121r19
+37U14*rechercher_occurrence 37>36 37>60 37>74 38<35 38<56 34|132b14 148l11
+. 148t32
+37a36 tab{8A9} 34|132b36 142r16
+37i60 n{integer} 34|132b60 136r10 136r18 141r19
+37e74 x{character} 34|132b74 142r25
+38b35 trouve{boolean} 34|133b37 143m16
+38i56 rang{integer} 34|133b58 144m16
+40V13*indice_valeur_Minimum{integer} 40>35 40>59 34|152b13 169l11 169t32
+40a35 tab{8A9} 34|152b35 163r16 163r26
+40i59 n{integer} 34|152b59 156r13 156r21 162r20
 X 34 tableau_caracteres.adb
 12i7 balise{integer} 16r35 23m17
-38i7 nb{integer} 41m14 42r13 42r22 47r39
+37i7 nb{integer} 40m14 41r13 41r22 46r39
 60e7 val{character} 66m14 69r17 74r22 76m17
 61e7 marqueur{character} 63m10 69r24
-85e7 val{character} 92m14 95r17 100r22 102m17
-86e7 marqueur{character} 89m14 95r24
-112i7 i{integer} 118m10 119r16 120r49 120r66 121m13 121r17
+86e7 val{character} 93m14 96r17 101r22 103m17
+87e7 marqueur{character} 90m14 96r24
+114i7 i{integer} 120m10 121r16 122r49 122r66 123m13 123r17
+134i7 i{integer} 140m10 141r16 142r20 144r23 146m13 146r17
+153i7 i{integer} 161m10 162r16 163r21 164r26 166m13 166r17
+154i7 minimal{integer} 160m10 163r30 164m16 168r17
 
