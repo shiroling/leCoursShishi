@@ -2,8 +2,8 @@ with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 
 with Tableau_Caracteres ; use Tableau_Caracteres ;
---with tests_rechercher_premiere_occurrence ;
---with tests_rechercher_indice_valeur_minimum ;
+-- with tests_rechercher_premiere_occurrence ;
+-- with tests_rechercher_indice_valeur_minimum ;
 
 procedure main is
    tab : Tab_Caracteres ; -- tableau de caractères

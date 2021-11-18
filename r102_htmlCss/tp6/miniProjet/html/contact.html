@@ -1,0 +1,38 @@
+html <!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title> Contact BUT info </title>
+        <link rel="stylesheet" type="text/css" href="..\css\contact.css">
+    </head>
+    
+    <body>
+        <main>
+            <h1>Page contact</h1>
+            <div class="first-part">
+                <p>Formulaire</p>
+                <div class="wrapper">
+                    <div class="form">
+                        <form method="post" action="traitement.php">
+                            <input type="text" name="prenom" placeholder="Prénom"/>
+                            <input type="text" name="nom" placeholder="Nom"/>
+                            <input type="text" name="mail" placeholder="E-mail"/>
+                        </form>
+                        <input type="button" value="Envoyer">
+                    </div>
+                    <textarea name="message" class="message" placeholder="Ecrivez votre message"></textarea>
+                </div>
+            </div>
+            
+            <div class="second-part">
+                <img alt="photo iut" src="..\images\photo.png" id="photo-iut"></img>
+                <div class="wrapper-2">
+                    <p class="adresse">adresse</p>
+                    <img alt="maps" src="..\images\photo.png" id="maps"></img>
+                </div>
+            </div>
+        </main>
+    </body>
+    
+</html>
