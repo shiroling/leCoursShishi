@@ -3,43 +3,42 @@ with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 
 package body paquetage_dictionnaire is
 
-   ------------
-   -- remplir --
-   ------------
-
    procedure remplir (f : in String; d : out dictionnaire) is
       MonFichier : File_Type;
       i          : Integer;
       m          : String (1 .. LONGUEUR_NOM);
       l          : Natural;
 
-   begin
-      -- ouverture du fichier usagers en lecture
-      Open (MonFichier, In_File, f);
-      -- vérification ouverture correcte
-      if End_Of_File (MonFichier) then
-         raise ERREUR_OUVERTURE_FICHIER;
-      end if;
-      -- lecture de TOUS les Enregistrement_Usagers tant que la fin de fichier
-      -- n'est pas atteinte
-      i := 1;
-      while not End_Of_File (MonFichier) loop
-         -- lire l'enregistrement courant dans le fichier
-         --put("Lecture : ");put(i,0);New_Line;
-         Get_Line (MonFichier, m, l);
-         -- afficher l'enregistrement lu
-         --Put_Line (m.mot (1 .. m.longueur));
-         d.mots (i) := unMot (m (1 .. l));
-         i          := i + 1;
-      end loop;
-      d.nbMots := i - 1;
-      -- fermer le fichier
-      Close (MonFichier);
+      begin
+         -- ouverture du fichier usagers en lecture
+         Open (MonFichier, In_File, f);
+         -- vérification ouverture correcte
+         if End_Of_File (MonFichier) then
+            raise ERREUR_OUVERTURE_FICHIER;
+         end if;
+         -- lecture de TOUS les Enregistrement_Usagers tant que la fin de fichier
+         -- n'est pas atteinte
+         i := 1;
+         while not End_Of_File (MonFichier) loop
+            -- lire l'enregistrement courant dans le fichier
+            --put("Lecture : ");put(i,0);New_Line;
+            Get_Line (MonFichier, m, l);
+            -- afficher l'enregistrement lu
+            --Put_Line (m.mot (1 .. m.longueur));
+            d.mots (i) := unMot (m (1 .. l));
+            i          := i + 1;
+         end loop;
+         d.nbMots := i - 1;
+         -- fermer le fichier
+         Close (MonFichier);
    end remplir;
 
-   ---------------------------
-   -- rechercher_Occurrence --
-   ----------------------------
+
+
+
+
+
+
 
    procedure rechercher_Occurrence
      (d    : in     dictionnaire; x : in Mot; trouve : out Boolean;
@@ -71,12 +70,20 @@ package body paquetage_dictionnaire is
    -----------------------------------------
    procedure rechercher_Par_Dichotomie_Recursive
      (d : in dictionnaire; x : in Mot; iDebut : in Integer; iFin : in Integer;
-      trouve :    out Boolean; rang : out Integer)
-   is
+      trouve :    out Boolean; rang : out Integer) is
       iMilieu : Integer;
    begin
          trouve := false;
          rang   := 0;
+         while trouve= FALSE and rang < iFin loop
+            iMilieu = (iDebut+fin)/2;
+
+            if mot()
+
+            
+         end loop;
+
+
    end rechercher_Par_Dichotomie_Recursive;
 
    -----------------------------------------

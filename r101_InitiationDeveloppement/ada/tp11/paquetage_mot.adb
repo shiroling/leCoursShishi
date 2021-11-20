@@ -18,62 +18,15 @@ package body paquetage_Mot is
       end chaine;
 
    function egal (m1 : in Mot; m2 : in Mot) return Boolean is
-      result: Boolean:= false;
-      i: Integer;
       begin
-         if m1.longueur = m2.longueur then
-            i:= 0;
-            while i<=m1.longueur and result=false loop
-               if m1.mot /= m2.mot then
-                  result:= true;
-               end if;
-               i:= i+1;
-            end loop;
-         end if;
-         return result;
+         return m1.longueur = m2.longueur and m1.mot(1..m1.longueur) = m2.mot(1..m2.longueur);
       end egal;
 
 
+
    function inf (m1 : in Mot; m2 : in Mot) return Boolean is
-      i            : Integer;
-      longueur_min : Integer;
-      result       : Boolean:= false;
    begin
-      -- calculer longueur_min qui est la longueur du mot le plus court
-      if longueur(m1) > longueur(m2) then
-         longueur_min := longueur(m1);
-      else
-         longueur_min := longueur(m2);
-      end if;
-
-      -- cas 3 : comparaison première lettre différente
-      --        => retourner VRAI si la lettre de mot1 < mot2
-      if m1.mot(1) < m2.mot(1) then
-         result := TRUE;
-      end if;
-
-      -- cas 1 : mots égaux => retourner FAUX
-      if result = FALSE then
-         if egal(m1, m2) = FALSE then
-            result:= TRUE;
-         end if;
-      end if;
-      
-      -- cas 2 : mot 1 inclus dans mot 2 => retourner VRAI
-      if result = FALSE then
-         
-         i:= 1;
-         while i<= longueur_min loop
-            if m1.mot(i) = m2.mot(i) then
-               result := TRUE;
-            else
-               result := FALSE;
-            end if;
-            i:=i+1;
-         end loop;   
-      end if;
-
-      return result;
+      return m1.mot(1..m1.longueur) < m2.mot(1..m2.longueur);
     end inf;
 
  --------
