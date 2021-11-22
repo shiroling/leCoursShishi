@@ -132,6 +132,18 @@ footer {
 	background-color: #222222;
 	bottom: 0;
 }
+
+
+#footSec {
+	display: flex;
+	justify-content: space-between;
+}
+
+#CNIL {
+	display: flex;
+	align-items: flex-end ;
+}
+
 	#footUl{
 	padding: 20px;
 	padding-left: 35px;
@@ -148,3 +160,4 @@ footer li a{
 	text-decoration: none;
 	color: white;
 }
+

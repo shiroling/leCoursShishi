@@ -28,9 +28,10 @@ begin
    -- TEST remplir tableau dictionnaire
    New_Line;
    Put ("********* TEST REMPLISSAGE DICTIONNAIRE ");
-   remplir ("dictionnaire_sans_accent.txt", d);
+   remplir ("txt/dictionnaire_court.txt", d);
    afficher_taille(d);
-   resultat_test("0 : taille du dictionnaire",d.nbMots=336532);
+   -- resultat_test("0 : taille du dictionnaire",d.nbMots=336532);
+   resultat_test("0 : taille du dictionnaire",d.nbMots=14);
    New_Line;
 
    -- test affichage tableau
@@ -42,11 +43,12 @@ begin
    New_Line;
    Put_Line ("********* TEST RECHERCHE SEQUENTIELLE ");
    -- test 1 : élément existant
-   x := unMot ("bille");
+   x := unMot ("abaissai");
+--   x := unMot ("bille");
    rechercher_Occurrence (d, x, trouve, rang);
    affichage_resultat (x, trouve, rang);
-   resultat_test
-     ("1 : mot existe dans le dictionnaire", trouve and rang = 30_619);
+   resultat_test("1 : mot existe dans le dictionnaire", trouve and rang = 6);
+--   resultat_test("1 : mot existe dans le dictionnaire", trouve and rang = 30_619);
    -- test 2 : élément non existant
    x := unMot ("abcdef");
    rechercher_Occurrence (d, x, trouve, rang);

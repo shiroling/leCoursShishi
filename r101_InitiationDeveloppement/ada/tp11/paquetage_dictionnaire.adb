@@ -31,13 +31,7 @@ package body paquetage_dictionnaire is
          d.nbMots := i - 1;
          -- fermer le fichier
          Close (MonFichier);
-   end remplir;
-
-
-
-
-
-
+      end remplir;
 
 
    procedure rechercher_Occurrence
@@ -48,22 +42,45 @@ package body paquetage_dictionnaire is
    begin
          trouve := false;
          rang   := 0;
+         i      := 1;
+         while rang < d.nbMots and trouve=FALSE loop
+            trouve:= egal (d.mots(i), x);
+            i:=i+1;
+         end loop;
+         rang:= i-1;
     end rechercher_Occurrence;
 
    -------------------------------
    -- rechercher_Par_Dichotomie --
    -------------------------------
-   procedure rechercher_Par_Dichotomie
-     (d    : in     dictionnaire; x : in Mot; trouve : out Boolean;
-      rang :    out Integer)
+   procedure rechercher_Par_Dichotomie(d    : in     dictionnaire; x : in Mot; 
+                                       trouve : out Boolean; rang : out Integer)
    is
       iDebut  : Integer;
       iFin    : Integer;
       iMilieu : Integer;
+      i: Integer; --conpteur
    begin
-              trouve := false;
-         rang   := 0;
+      trouve := false;
+      rang   := 0;
+      iDebut:= 1;
+      iFin := d.nbMots;
+      i:= 1;
+      while trouve=FALSE and iDebut <= iFin loop
+         iMilieu:= (iDebut + iFin)/2;
+         if egal (x, d.mots(iMilieu)) then
+            trouve := TRUE;
+            rang := iMilieu;
+         else
+            if inf (x, d.mots(iMilieu)) then
+               iDebut := iMilieu+1;
+            else
+               iFin := iMilieu-1;
+            end if;
+         end if;
+      end loop;
    end rechercher_Par_Dichotomie;
+
 
    -----------------------------------------
    -- rechercher_Par_Dichotomie_Recursive --
@@ -75,13 +92,7 @@ package body paquetage_dictionnaire is
    begin
          trouve := false;
          rang   := 0;
-         while trouve= FALSE and rang < iFin loop
-            iMilieu = (iDebut+fin)/2;
-
-            if mot()
-
             
-         end loop;
 
 
    end rechercher_Par_Dichotomie_Recursive;

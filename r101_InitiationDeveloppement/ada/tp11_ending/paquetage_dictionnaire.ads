@@ -9,7 +9,6 @@ package paquetage_dictionnaire is
    -- type dictionnaire
    -- TAILLE_MAX : constant Integer := 400_000;
    type tab_dictionnaire is array (positive range <>) of Mot;
-  
    type dictionnaire (taille_dictionnaire : natural) is record
       mots : tab_dictionnaire (1..taille_dictionnaire);
       nbMots   : Integer;
@@ -46,15 +45,6 @@ package paquetage_dictionnaire is
    procedure rechercher_Par_Dichotomie_Recursive
         (d    : in dictionnaire; x : in Mot; iDebut : in Integer;
          iFin : in Integer ; trouve : out Boolean; rang :    out Integer);
-
-   -- recherche par hachage
-   -- un élément de valeur x dans le dictionnaire d
-   -- si l'élément existe, trouvé = VRAI et rang désigne sa
-   -- position dans le tableau tab, sinon trouvé = FAUX et rang n'est pas
-   -- significatif nécessite 0 < n <= TAILLE_MAX leve l’exception
-   -- TRANCHE_INVALIDE si n<0 ou n>TAILLE_MAX
-   procedure rechercher_Par_Hachage
-        (d    : in dictionnaire; x : in Mot; trouve : out Boolean; rang :    out Integer);
 
    -- affiche le nombre de mots du dictionnaire
    procedure afficher_taille (d : in dictionnaire);
