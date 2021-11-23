@@ -1,38 +1,103 @@
-html <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 
-    <head>
-        <meta charset="utf-8">
-        <title> Contact BUT info </title>
-        <link rel="stylesheet" type="text/css" href="..\css\contact.css">
-    </head>
-    
-    <body>
-        <main>
-            <h1>Page contact</h1>
-            <div class="first-part">
-                <p>Formulaire</p>
-                <div class="wrapper">
-                    <div class="form">
-                        <form method="post" action="traitement.php">
-                            <input type="text" name="prenom" placeholder="Prénom"/>
-                            <input type="text" name="nom" placeholder="Nom"/>
-                            <input type="text" name="mail" placeholder="E-mail"/>
-                        </form>
-                        <input type="button" value="Envoyer">
-                    </div>
-                    <textarea name="message" class="message" placeholder="Ecrivez votre message"></textarea>
-                </div>
-            </div>
-            
-            <div class="second-part">
-                <img alt="photo iut" src="..\images\photo.png" id="photo-iut"></img>
-                <div class="wrapper-2">
-                    <p class="adresse">adresse</p>
-                    <img alt="maps" src="..\images\photo.png" id="maps"></img>
-                </div>
-            </div>
-        </main>
-    </body>
-    
+	<head>
+		<meta charset="utf-8">
+		<title> Contact BUT info </title>
+		<link rel="stylesheet" type="text/css" href="../css/comonHead-Foot.css" />
+		<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	</head>
+	
+
+	<body>
+				<header>
+			<section id="headImages">
+				<div>
+					<img src="../images/logoIUT.jpg" alt="bannière de l'IUT paul sabatier">
+					<img src="../images/logoUniv.png" alt="bannière de l'IUT paul sabatier">
+				</div>
+				<div id="aDroite">
+					<img src="../images/logoIUT.jpg" alt="bannière de l'IUT paul sabatier">
+				</div>	
+			</section>
+
+
+			<nav>
+				<ul>
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="presentation.html">Présentation du BUT</a></li>
+					<li class="deroulant"><a href="#">Compétences&ensp;</a>
+						<ul class="sous">
+							<li><a href="comp1.html">Compétence 1</a></li>
+							<li><a href="comp2.html">Compétence 2</a></li>
+							<li><a href="comp3.html">Compétence 3</a></li>
+							<li><a href="comp4.html">Compétence 4</a></li>
+							<li><a href="comp5.html">Compétence 5</a></li>
+							<li><a href="comp6.html">Compétence 6</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<h1>Contact</h1>
+			<div class="first-part">
+				<p class="formulaire">Contacter l'IUT Informatique :</p>
+				<div class="wrapper">
+					<div class="form">
+						<form method="post" action="traitement.php">
+							<input type="text" name="prenom" placeholder="Prénom" class="remplir" />
+							<input type="text" name="nom" placeholder="Nom" class="remplir" />
+							<input type="text" name="mail" placeholder="E-mail" class="remplir" />
+						</form>
+						<input type="button" value="Envoyer" class="envoyer">
+					</div>
+					<textarea name="message" class="message" placeholder="Ecrivez votre message"></textarea>
+				</div>
+			</div>
+			
+			<div class="second-part">
+				<img alt="photo iut" src="../images/iut_photo.png" id="photo-iut"/>
+				<div class="wrapper-2">
+					<p class="adresse">133 B Av. de Rangueil, 31400 Toulouse</p>
+					<img alt="maps" src="../images/iut_maps.png" id="maps"/>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<section id="footSec">
+				<div id="summary">
+					<ul id="footUl">
+						<li><a href="../index">Acceuil</a></li>
+						<li><a href="presentation.html">Présentation du BUT</a></li>
+						<li ><a href="#">Compétences</a>
+							<ol>
+								<li><a href="comp1.html">Compétence 1</a></li>
+								<li><a href="comp2.html">Compétence 2</a></li>
+								<li><a href="comp3.html">Compétence 3</a></li>
+								<li><a href="comp4.html">Compétence 4</a></li>
+								<li><a href="comp5.html">Compétence 5</a></li>
+								<li><a href="comp6.html">Compétence 6</a></li>
+							</ol>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div id="CNIL">
+					<a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees">CNIL - RGPD</a>
+				</div>
+				<div id="corp">
+					<h4>Made by C1 best team:</h4>
+					<p>
+						COUTURIER quentin,
+					</p>
+				</div>
+			</section>	
+		</footer>
+	</body>
+
+
+	
 </html>

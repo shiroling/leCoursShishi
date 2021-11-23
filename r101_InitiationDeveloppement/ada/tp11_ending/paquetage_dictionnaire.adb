@@ -6,7 +6,6 @@ package body paquetage_dictionnaire is
    ------------
    -- remplir --
    ------------
-
    procedure remplir (f : in String; d : out dictionnaire) is
       MonFichier : File_Type;
       i          : Integer;
@@ -40,7 +39,6 @@ package body paquetage_dictionnaire is
    ---------------------------
    -- rechercher_Occurrence --
    ----------------------------
-
    procedure rechercher_Occurrence
      (d    : in     dictionnaire; x : in Mot; trouve : out Boolean;
       rang :    out Integer)
@@ -157,7 +155,6 @@ package body paquetage_dictionnaire is
    -------------------
    -- afficher_mots --
    -------------------
-
    procedure afficher_mots (d : in dictionnaire) is
 
    begin
@@ -170,7 +167,6 @@ package body paquetage_dictionnaire is
    ---------------------------------
    -- afficher_mots_avec_longueur --
    ---------------------------------
-
    procedure afficher_mots_avec_longueur (d : in dictionnaire) is
 
    begin

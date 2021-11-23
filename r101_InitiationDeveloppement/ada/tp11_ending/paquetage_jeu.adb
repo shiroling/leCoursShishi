@@ -21,7 +21,6 @@ package body paquetage_jeu is
    --------------------------
    -- dictionnaires_inclus --
    --------------------------
-
    function dictionnaire_inclus
      (d1 : in dictionnaire; d2 : dictionnaire) return Boolean is
       trouve : Boolean;
@@ -48,7 +47,6 @@ package body paquetage_jeu is
    --------------------------
    -- dictionnaires_egaux --
    --------------------------
-
    function dictionnaires_egaux
      (d1 : in dictionnaire; d2 : dictionnaire) return Boolean
    is

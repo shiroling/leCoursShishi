@@ -27,7 +27,6 @@ package body paquetage_Mot is
    ----------
    -- egal --
    ----------
-
    function "="(m1 : in Mot; m2 : in Mot) return Boolean is
    begin
       --  put("m1=");afficher_mot_avec_longueur(m1);new_line;
@@ -51,7 +50,6 @@ package body paquetage_Mot is
    ----------
    -- inf --
    ----------
-
    function inf (m1 : in Mot; m2 : in Mot) return Boolean is
         i            : Integer;
         longueur_min : Integer;
@@ -91,7 +89,6 @@ package body paquetage_Mot is
    -------------------
    -- concatenation --
    -------------------
-
    function concatenation (m1 : in Mot; m2 : in Mot) return Mot is
       m : Mot;
    begin
@@ -113,7 +110,6 @@ package body paquetage_Mot is
    --------------
    -- longueur --
    --------------
-
    function longueur (m : in Mot) return Integer is
    begin
       return m.longueur;
@@ -122,7 +118,6 @@ package body paquetage_Mot is
    ----------
    -- ieme --
    ----------
-
    function ieme (m : in Mot; i : in Integer) return Character is
    begin
       if i < 0 or i > LONGUEUR_NOM then
@@ -134,7 +129,6 @@ package body paquetage_Mot is
    -------------------
    -- afficher_mot --
    -------------------
-
    procedure afficher_mot (m : in Mot) is
    begin
       Put (m.mot (1 .. m.longueur));
@@ -143,7 +137,6 @@ package body paquetage_Mot is
    ---------------------------------
    -- afficher_mot_avec_longueur --
    ---------------------------------
-
    procedure afficher_mot_avec_longueur (m : in Mot) is
    begin
       Put (m.mot (1 .. m.longueur));

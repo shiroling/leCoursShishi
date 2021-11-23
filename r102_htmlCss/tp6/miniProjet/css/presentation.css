@@ -1,69 +1,151 @@
-main, div, p{
-    border: 1px solid black;
-}
-
 h1{
-    border: 1px solid black;
-    margin : 5px;
+	margin : 30px;
 }
 
 .wrapper{
-    display : flex;
+	display : flex;
+	padding-bottom : 10px;
+	margin-bottom : 10px;
+	border-bottom : 3px solid black;
 }
 
 .text{
-    margin : 5px;
+	margin : 5px;
+	margin-left : 50px;
 }
 
 .validation{
-    display : inline-flex;
-    margin : 5px;
-    text-align : justify;
-    padding : 5px;
+	display : inline-flex;
+	margin : 5px;
+	text-align : justify;
+	padding : 20px;
+	max-width : 50%;
 }
 
 table{
-    display : inline-flex;
-    justify-content : flex-end;
-    margin : 5px;
-    border-collapse : collapse;
-    text-align : center;
+	display : inline-flex;
+	justify-content : flex-end;
+	margin : 5px;
+	border-collapse : collapse;
+	text-align : center;
 }
 
 td, th{
-    border : 1px solid black;
+	border : 1px solid black;
+	width : 300px;
 }
 
-.bloc-haut{
-    display : inline-flex;
-    width : 98%;
-    margin : 5px;
+.tab-c1{
+	background-color : #C00000;
+}
+
+.tab-c2{
+	background-color : #F79152;
+}
+
+.tab-c3{
+	background-color : #FFC000;
+}
+
+.tab-c4{
+	background-color : #92D050;
+}
+
+.tab-c5{
+	background-color : #002060;
+	color : white;
+}
+
+.tab-c6{
+	background-color : #1E1C11;
+	color : white;
+}
+
+.bloc-c3, .bloc-c5{
+	display : inline-flex;
+	width : 98%;
+	margin : 5px;
+	padding-top : 12px;
+	padding-bottom : 12px;
+	border-top : 1px solid black;
+	border-bottom : 1px solid black;
+}
+
+.bloc-c1{
+	display : inline-flex;
+	width : 98%;
+	margin : 5px;
+	padding-bottom : 12px;
+	border-bottom : 1px solid black;
 }
 
 img{
-    display : inline-flex;
-    margin : 5px;
-    width : 25%;
+	display : inline-flex;
+	margin : 5px;
+	width : 25%;
 }
 
 .bloc{
-    display : inline-flex;
-    justify-content : space-evenly;
-    flex-flow : wrap;
-    width : 70%;
-    margin : 5px;
+	display : inline-flex;
+	justify-content : space-evenly;
+	flex-flow : wrap;
+	width : 70%;
+	margin : 5px;
 }
 
-.bloc-bas{
-    display : inline-flex;
-    justify-content : space-between;
-    width : 98%;
-    margin : 5px;
+.bloc-c2, .bloc-c4{
+	display : inline-flex;
+	justify-content : space-between;
+	width : 98%;
+	margin : 5px;
+	padding-top : 12px;
+	padding-bottom : 12px;
+	border-top : 1px solid black;
+	border-bottom : 1px solid black;
 }
 
-.ressource{
-    padding-left : 10%;
-    padding-right : 10%;
-    padding-top : 3%;
-    padding-bottom : 3%;
+.bloc-c6{
+	display : inline-flex;
+	justify-content : space-between;
+	width : 98%;
+	margin : 5px;
+	padding-top : 12px;
+	border-top : 1px solid black;
 }
+
+.ressource-c1, .ressource-c2, .ressource-c3, .ressource-c4, .ressource-c5, .ressource-c6{
+	padding-left : 5%;
+	padding-right : 5%;
+	padding-top : 3%;
+	padding-bottom : 3%;
+	max-width : 20%;
+	max-height : 20%;
+	border-radius : 25px;
+	text-align : center;
+}
+
+.ressource-c1 {
+	background-color : #C00000;
+}
+
+.ressource-c2 {
+	background-color : #F79152;
+}
+
+.ressource-c3 {
+	background-color : #FFC000;
+}
+
+.ressource-c4 {
+	background-color : #92D050;
+}
+
+.ressource-c5 {
+	background-color : #002060;
+	color : white;
+}
+
+.ressource-c6 {
+	background-color : #1E1C11;
+	color : white;
+}	
