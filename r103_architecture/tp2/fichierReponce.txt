@@ -1,0 +1,51 @@
+1/ 
+le fichier s'ouvre dans mon éditeur de texte.
+
+2/
+le fichier d'image s'ouvre dans "image viewer".
+
+3/
+Le fichier s'ouvre dans l'editeur de texte mais indoque une erreur de décodage.
+De plus ça affiche des caractéres de debug non compréhensible.
+
+4/
+Le fichier s'ouvre correctement.
+
+5/
+Avec gthumb l'image saffiche correctement
+
+6/
+Ristretto prend uniquement l'extention du fichier alors que gthumb prend en compte le contenu du fichier
+
+7/
+La modification d'extension ne change pas le format du fichier (toujours jpeg image data))
+
+8/
+→ La largeur de l’image: 640
+→ La hauteur de l’image: 426
+→ Laprofondeur de codage: 8
+→ La taille de l’image: 640*426
+→ La tailledu fichier : 799 Kib
+
+9/
+64*43
+en fait là ça a réduit de 90% l'image.
+
+10/
+I faut faire la commande avec l'argument 90% plustôt.
+
+11/
+Redmi Note 8 Pro.
+2021:11:16 08:33:54
+No Flash
+GPS Position: 43 deg 34' 12.18" N, 1 deg 27' 53.08" E
+
+12/
+bah c'est juste devant l'iut.
+De se faire voler la voiture puisqu'elle est rare.
+
+
+
+VI   Image format base64:
+l'image fait 
+

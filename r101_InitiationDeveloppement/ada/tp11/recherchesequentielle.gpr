@@ -1,6 +1,0 @@
-project RechercheSequentielle is
-
-   for Main use ("test_dictionnaire.adb", "test_jeu_mots_coupes.adb", "test_mot.adb");
-
-end RechercheSequentielle;
-

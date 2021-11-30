@@ -14,10 +14,12 @@ package paquetage_Mot is
    --retourne VRAI si deux mots sont Ã©gaux
    -- et FAUX sinon
    function "=" (m1 : in Mot; m2 : in Mot) return Boolean;
-
+   function egal(m1 : in Mot; m2 : in Mot) return Boolean;
+   
    -- retourne VRAI si m1 < m2
    -- et FAUX sinon
    function inf (m1 : Mot; m2 : Mot) return Boolean;
+   function "<"(m1 : Mot; m2 : Mot) return Boolean;
 
    --crÃ©e un nouveau mot par concatÃ¨nation les 2 mots m1 et m2
    --nÃ©cessite longueur(m1) + longueur(m2) <= LONGUEUR_MOT

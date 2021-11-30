@@ -8,11 +8,12 @@ package paquetage_dictionnaire is
 
    -- type dictionnaire
    -- TAILLE_MAX : constant Integer := 400_000;
-   type tab_dictionnaire is array (positive range <>) of Mot;
-   type dictionnaire (taille_dictionnaire : natural) is record
+   TYPE tab_dictionnaire is array (positive range <>) of Mot;
+   TYPE dictionnaire (taille_dictionnaire : natural) is record
       mots : tab_dictionnaire (1..taille_dictionnaire);
       nbMots   : Integer;
    end record;
+   TYPE trueDico IS ACCESS dictionnaire;
 
    -- recopie dans d tous les enregistrements du fichier de nom f
    procedure remplir (f : in String; d : out dictionnaire);

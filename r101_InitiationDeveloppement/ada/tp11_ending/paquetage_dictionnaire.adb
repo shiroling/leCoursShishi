@@ -51,7 +51,7 @@ package body paquetage_dictionnaire is
       end if;
       -- recherche de l'élément dans le tableau
       rang := 0;
-      while i <= d.nbMots and not (d.mots (i)= x) loop
+      while i <= d.nbMots and then not (d.mots (i)= x) loop
          i := i + 1;
       end loop;
       -- résultat

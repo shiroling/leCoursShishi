@@ -1,7 +1,3 @@
-h1{
-	margin : 30px;
-}
-
 .wrapper{
 	display : flex;
 	padding-bottom : 10px;
@@ -61,68 +57,6 @@ td, th{
 	color : white;
 }
 
-.bloc-c3, .bloc-c5{
-	display : inline-flex;
-	width : 98%;
-	margin : 5px;
-	padding-top : 12px;
-	padding-bottom : 12px;
-	border-top : 1px solid black;
-	border-bottom : 1px solid black;
-}
-
-.bloc-c1{
-	display : inline-flex;
-	width : 98%;
-	margin : 5px;
-	padding-bottom : 12px;
-	border-bottom : 1px solid black;
-}
-
-img{
-	display : inline-flex;
-	margin : 5px;
-	width : 25%;
-}
-
-.bloc{
-	display : inline-flex;
-	justify-content : space-evenly;
-	flex-flow : wrap;
-	width : 70%;
-	margin : 5px;
-}
-
-.bloc-c2, .bloc-c4{
-	display : inline-flex;
-	justify-content : space-between;
-	width : 98%;
-	margin : 5px;
-	padding-top : 12px;
-	padding-bottom : 12px;
-	border-top : 1px solid black;
-	border-bottom : 1px solid black;
-}
-
-.bloc-c6{
-	display : inline-flex;
-	justify-content : space-between;
-	width : 98%;
-	margin : 5px;
-	padding-top : 12px;
-	border-top : 1px solid black;
-}
-
-.ressource-c1, .ressource-c2, .ressource-c3, .ressource-c4, .ressource-c5, .ressource-c6{
-	padding-left : 5%;
-	padding-right : 5%;
-	padding-top : 3%;
-	padding-bottom : 3%;
-	max-width : 20%;
-	max-height : 20%;
-	border-radius : 25px;
-	text-align : center;
-}
 
 .ressource-c1 {
 	background-color : #C00000;
@@ -149,3 +83,66 @@ img{
 	background-color : #1E1C11;
 	color : white;
 }	
+
+.bloc-c1{
+	display : inline-flex;
+	width : 98%;
+	margin : 5px;
+	padding-bottom : 12px;
+	border-bottom : 1px solid black;
+}
+
+.bloc-c2, .bloc-c4{
+	display : inline-flex;
+	justify-content : space-between;
+	width : 98%;
+	margin : 5px;
+	padding-top : 12px;
+	padding-bottom : 12px;
+	border-top : 1px solid black;
+	border-bottom : 1px solid black;
+}
+
+.bloc-c3, .bloc-c5{
+	display : inline-flex;
+	width : 98%;
+	margin : 5px;
+	padding-top : 12px;
+	padding-bottom : 12px;
+	border-top : 1px solid black;
+	border-bottom : 1px solid black;
+}
+
+
+.bloc-c6{
+	display : inline-flex;
+	justify-content : space-between;
+	width : 98%;
+	margin : 5px;
+	padding-top : 12px;
+	border-top : 1px solid black;
+}
+.bloc{
+	display : inline-flex;
+	justify-content : space-evenly;
+	flex-flow : wrap;
+	width : 70%;
+	margin : 5px;
+}
+.ressource-c1, .ressource-c2, .ressource-c3, .ressource-c4, .ressource-c5, .ressource-c6{
+	padding-left : 5%;
+	padding-right : 5%;
+	padding-top : 3%;
+	padding-bottom : 3%;
+	max-width : 20%;
+	max-height : 20%;
+	border-radius : 25px;
+	text-align : center;
+}
+
+
+img{
+	display : inline-flex;
+	margin : 5px;
+	width : 25%;
+}
