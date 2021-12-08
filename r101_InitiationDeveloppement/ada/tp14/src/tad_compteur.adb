@@ -20,6 +20,11 @@ package body TAD_Compteur is
       return integer (c);
    end valeur;
 
+   
+
+
+
+
    ---------------
    -- ajouterUn --
    ---------------
@@ -39,5 +44,9 @@ package body TAD_Compteur is
       nouveauC := 0;
       return nouveauC;
    end remettreAZero;
+
+
+
+
 
 end TAD_Compteur;

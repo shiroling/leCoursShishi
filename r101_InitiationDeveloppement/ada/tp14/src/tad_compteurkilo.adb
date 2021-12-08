@@ -147,9 +147,10 @@ package body TAD_CompteurKilo is
 
    procedure remettreAZero (c : in out cptKilo) is
    begin
-      remettreAZero(obtenirUnite(c));
-      remettreAZero(obtenirDizaine(c));
-      remettreAZero(obtenirCentaine(c));
+      c.unites := remettreAZero(obtenirUnite(c));
+      c.dizaines := remettreAZero(obtenirDizaine(c));
+      c.centaines := remettreAZero(obtenirCentaine(c));
+
 
    end remettreAZero;
 
