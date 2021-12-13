@@ -3,6 +3,20 @@ with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 
 package body TAD_CompteurKilo is
 
+--    unCptKilo : → cptK
+--    obtenirUnite : cptK → compteur
+--    obtenirDizaine : cptK → compteur
+--    obtenirCentaine : cptK → compteur
+--    valeur : cptKilo → Entier
+--    inf : CptKilo x CptKilo → Booléen
+--    egal : CptKilo x CptKilo → Booléen
+--    modifierUnite : CptKilo x compteur → CptKilo
+--    modifierDizaine : CptKilo x compteur → CptKilo
+--    modifierCentaine : CptKilo x compteur → CptKilo
+--    ajouterUnKilometre : CptKilo → CptKilo
+--    remettreAZero : → cptKilo
+
+
    ---------------
    -- unCptKilo --
    ---------------
@@ -31,7 +45,7 @@ package body TAD_CompteurKilo is
    --------------------
 
    function obtenirDizaine (c : in cptKilo) return compteur is
-   begin
+   beginb
       return c.dizaines;
    end obtenirDizaine;
 
@@ -51,7 +65,7 @@ package body TAD_CompteurKilo is
    function valeur (c : in cptKilo) return Integer is
    begin
       return
-        valeur (c.unites) + valeur (c.dizaines) * 10 +
+        valeur (c.unites) + valeur (c.dizaines) * 10 +  --truc chelou
         valeur (c.centaines) * 100;
    end valeur;
 

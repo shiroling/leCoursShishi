@@ -1,0 +1,52 @@
+#progTemp
+
+begin - end Alirepourmercredi:
+ 
+ 
+  -- Attention aux tailles en bits !!!
+   new_line ;
+ put_line(" ***************************************************************************");
+ put_line("variable 'a' en mémoire : ");
+
+  -- 3 façons pour appeler memprint_ADA
+  memprint_ADA(voidStar(a'access),a'size/8);
+  memprint_ADA(voidStar(pointeurA),a'size/8);
+  memprint_ADA(ptrUnivA,a'size/8);
+
+  put_line("Et ses différentes interprétations : ");
+  for typeAffic in CAR..R32 loop
+    afficherComme_Ada(voidStar(pointeurA),typeAffic);
+  end loop ;
+
+  -- On effectue les mêmes tests avec -a le complément arithmétique de a
+  -- quand a est considéré comme un entier relatif
+  
+  a:=-a ;
+
+  new_line ;
+  put_line(" ***************************************************************************");
+  put_line(" -a en mémoire : ");
+  memprint_ADA(ptrUnivA,a'size/8);
+
+  put_line("Et ses différentes interprétations : ");
+  for typeAffic in CAR..R32 loop
+    afficherComme_Ada(voidStar(pointeurA),typeAffic);
+  end loop ;
+
+  -- Test des fonctions setBitOctet_Ada et resetBitOcter_ADA
+  -- force à 1 puis 0 les bits d'un entier 32 bits
+  a:=0 ;
+  new_line ;
+  put_line(" ***************************************************************************");
+  put_line(" Test des fonctions setBitOctet_Ada et resetBitOcter_ADA");
+  put_line(" Force à 1, affiche puis remets à 0, en séquence, les bits d'un mot de 32 bits");
+  for deplacement in 0..3 loop
+    for numbit in 0..7 loop
+    	setbitOctet_Ada(ptrUnivA,deplacement,numbit) ;
+    	memprint_ADA(ptrUnivA,a'size/8);
+        afficherComme_Ada(voidStar(pointeurA),N32);
+    	resetbitOctet_Ada(ptrUnivA,deplacement,numbit) ;
+    end loop ;
+  end loop ;
+  
+------------------------------------------------------------------------------------------------------

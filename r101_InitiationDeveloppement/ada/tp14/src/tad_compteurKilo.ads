@@ -61,18 +61,8 @@ package TAD_CompteurKilo is
    -- leve l'exception COMPTEUR_DEPASSE si v > 998
    procedure ajouterUnKilometre (c : in out cptKilo);
 
-
-
-
-
    -- remet un compteur c a zero
    procedure remettreAZero (c : in out cptKilo);
-
-
-
-
-
-
 
 private
    type cptKilo is record

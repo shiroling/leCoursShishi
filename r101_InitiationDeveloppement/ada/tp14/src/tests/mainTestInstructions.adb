@@ -1,16 +1,4 @@
-with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
-with Ada.Text_IO;         use Ada.Text_IO;
-
-with TAD_Compteur;     use TAD_Compteur;
-with TAD_CompteurKilo; use TAD_CompteurKilo;
-
-with tests_TAD_Compteur;     use tests_TAD_Compteur;
-with tests_TAD_CompteurKilo; use tests_TAD_CompteurKilo;
-
-procedure Main is
-
-begin
-   -- tests TAD compteur
+ -- tests TAD compteur
    Put_Line (" *** Tests propriétés TAD Compteur");
    tests_TAD_Compteur.P1;
    tests_TAD_Compteur.P2a;
@@ -36,5 +24,3 @@ begin
    tests_TAD_CompteurKilo.P10c;
    tests_TAD_CompteurKilo.P10d;
    tests_TAD_CompteurKilo.P11;
-
-end Main;
