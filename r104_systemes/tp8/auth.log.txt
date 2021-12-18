@@ -1,0 +1,502 @@
+oct. 29 10:12:02 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user jules by (uid=1000)
+oct. 29 10:12:02 remi-VirtualBox pkexec[3086]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+oct. 29 10:12:23 remi-VirtualBox gnome-keyring-daemon[2047]: keyring alias directory: /home/remi/.local/share/keyrings
+oct. 29 10:17:01 remi-VirtualBox CRON[3251]: pam_unix(cron:session): session opened for user remi by (uid=0)
+oct. 29 10:17:01 remi-VirtualBox CRON[3251]: pam_unix(cron:session): session closed for user remi
+oct. 29 11:17:01 remi-VirtualBox CRON[3959]: pam_unix(cron:session): session opened for user marie by (uid=0)
+oct. 29 11:17:01 remi-VirtualBox CRON[3959]: pam_unix(cron:session): session closed for user marie
+oct. 29 11:50:39 remi-VirtualBox dbus[609]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1285 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=707 comm="NetworkManager ")
+oct. 29 11:50:40 remi-VirtualBox dbus[609]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1285 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=707 comm="NetworkManager ")
+oct. 29 14:22:16 remi-VirtualBox sshd[915]: Server listening on 0.0.0.0 port 22.
+oct. 29 14:22:16 remi-VirtualBox sshd[915]: Server listening on :: port 22.
+oct. 29 14:22:17 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+oct. 29 14:22:17 remi-VirtualBox dbus[588]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1259 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=697 comm="NetworkManager ")
+oct. 29 14:22:19 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.48 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+oct. 29 14:23:22 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+oct. 29 14:23:22 remi-VirtualBox pkexec[2587]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+oct. 29 15:17:01 remi-VirtualBox CRON[2768]: pam_unix(cron:session): session opened for user root by (uid=0)
+oct. 29 15:17:01 remi-VirtualBox CRON[2768]: pam_unix(cron:session): session closed for user root
+oct. 29 15:59:14 remi-VirtualBox dbus[588]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1259 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=697 comm="NetworkManager ")
+oct. 29 15:59:16 remi-VirtualBox dbus[588]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1259 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=697 comm="NetworkManager ")
+oct. 29 16:17:01 remi-VirtualBox CRON[2910]: pam_unix(cron:session): session opened for user alain by (uid=0)
+oct. 29 16:17:01 remi-VirtualBox CRON[2910]: pam_unix(cron:session): session closed for user alain
+oct. 29 17:17:01 remi-VirtualBox CRON[2919]: pam_unix(cron:session): session opened for user alfred by (uid=0)
+oct. 29 17:17:01 remi-VirtualBox CRON[2919]: pam_unix(cron:session): session closed for user alfred
+oct. 29 18:17:01 remi-VirtualBox CRON[2928]: pam_unix(cron:session): session opened for user julien by (uid=0)
+oct. 29 18:17:01 remi-VirtualBox CRON[2928]: pam_unix(cron:session): session closed for user julien
+oct. 29 19:17:01 remi-VirtualBox CRON[3036]: pam_unix(cron:session): session opened for user marie by (uid=0)
+oct. 29 19:17:01 remi-VirtualBox CRON[3036]: pam_unix(cron:session): session closed for user marie
+oct. 29 20:44:18 remi-VirtualBox dbus[588]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1259 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=697 comm="NetworkManager ")
+oct. 29 20:44:19 remi-VirtualBox dbus[588]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1259 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=697 comm="NetworkManager ")
+oct. 29 21:17:01 remi-VirtualBox CRON[3206]: pam_unix(cron:session): session opened for user root by (uid=0)
+oct. 29 21:17:01 remi-VirtualBox CRON[3206]: pam_unix(cron:session): session closed for user root
+oct. 29 21:52:13 remi-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=remi uid=1000 euid=0 tty=/dev/pts/8 ruser=remi rhost=  user=remi
+oct. 29 21:52:21 remi-VirtualBox sudo:    remi : TTY=pts/8 ; PWD=/home/remi/Documents/Sonia3/test-gui ; USER=root ; COMMAND=/usr/bin/find / -name gdkx.h
+oct. 29 21:52:21 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user julien by remi(uid=0)
+oct. 29 21:52:41 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user julien
+oct. 29 22:04:20 remi-VirtualBox dbus[588]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1259 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=697 comm="NetworkManager ")
+oct. 29 22:04:23 remi-VirtualBox dbus[588]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1259 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=697 comm="NetworkManager ")
+oct. 29 22:15:33 remi-VirtualBox dbus[588]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1259 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=697 comm="NetworkManager ")
+oct. 30 07:41:11 remi-VirtualBox dbus[588]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1259 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=697 comm="NetworkManager ")
+oct. 30 08:17:01 remi-VirtualBox CRON[4018]: pam_unix(cron:session): session opened for user patrick by (uid=0)
+oct. 30 08:17:01 remi-VirtualBox CRON[4018]: pam_unix(cron:session): session closed for user patrick
+oct. 30 09:17:01 remi-VirtualBox CRON[4969]: pam_unix(cron:session): session opened for user gaelle by (uid=0)
+oct. 30 09:17:01 remi-VirtualBox CRON[4969]: pam_unix(cron:session): session closed for user gaelle
+oct. 30 09:43:57 remi-VirtualBox sshd[934]: Server listening on 0.0.0.0 port 22.
+oct. 30 09:43:57 remi-VirtualBox sshd[934]: Server listening on :: port 22.
+oct. 30 09:43:58 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+oct. 30 09:43:58 remi-VirtualBox dbus[573]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.17" (uid=0 pid=1306 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=767 comm="NetworkManager ")
+oct. 30 09:44:00 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.45 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+oct. 30 09:45:02 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+oct. 30 09:45:02 remi-VirtualBox pkexec[2715]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+oct. 30 09:45:21 remi-VirtualBox sudo:    remi : TTY=pts/1 ; PWD=/home/remi ; USER=root ; COMMAND=/bin/rm aa
+oct. 30 09:45:21 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by remi(uid=0)
+oct. 30 09:45:21 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+oct. 30 10:15:01 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+oct. 30 10:15:01 remi-VirtualBox pkexec[3311]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+oct. 30 10:15:22 remi-VirtualBox gnome-keyring-daemon[2073]: keyring alias directory: /home/remi/.local/share/keyrings
+oct. 30 10:17:01 remi-VirtualBox CRON[3337]: pam_unix(cron:session): session opened for user alfred by (uid=0)
+oct. 30 10:17:01 remi-VirtualBox CRON[3337]: pam_unix(cron:session): session closed for user alfred
+oct. 30 15:54:34 remi-VirtualBox sshd[908]: Server listening on 0.0.0.0 port 22.
+oct. 30 15:54:34 remi-VirtualBox sshd[908]: Server listening on :: port 22.
+oct. 30 15:54:35 remi-VirtualBox dbus[537]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.15" (uid=0 pid=1280 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=753 comm="NetworkManager ")
+oct. 30 15:54:35 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+oct. 30 15:54:37 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+oct. 30 15:55:40 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+oct. 30 15:55:40 remi-VirtualBox pkexec[2480]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+oct. 30 16:10:15 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi ; USER=root ; COMMAND=/usr/sbin/gparted
+oct. 30 16:10:15 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by remi(uid=0)
+oct. 30 16:10:31 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+oct. 30 16:17:01 remi-VirtualBox CRON[2754]: pam_unix(cron:session): session opened for user marie by (uid=0)
+oct. 30 16:17:01 remi-VirtualBox CRON[2754]: pam_unix(cron:session): session closed for user marie
+oct. 30 17:17:01 remi-VirtualBox CRON[2887]: pam_unix(cron:session): session opened for user root by (uid=0)
+oct. 30 17:17:01 remi-VirtualBox CRON[2887]: pam_unix(cron:session): session closed for user root
+oct. 30 18:58:44 remi-VirtualBox sshd[924]: Server listening on 0.0.0.0 port 22.
+oct. 30 18:58:44 remi-VirtualBox sshd[924]: Server listening on :: port 22.
+oct. 30 18:58:45 remi-VirtualBox dbus[560]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.19" (uid=0 pid=1306 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=741 comm="NetworkManager ")
+oct. 30 18:58:45 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+oct. 30 18:58:47 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+oct. 30 18:59:50 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+oct. 30 18:59:50 remi-VirtualBox pkexec[2478]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+oct. 30 19:04:09 remi-VirtualBox dbus[560]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.19" (uid=0 pid=1306 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=741 comm="NetworkManager ")
+oct. 30 19:04:10 remi-VirtualBox dbus[560]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.19" (uid=0 pid=1306 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=741 comm="NetworkManager ")
+oct. 30 19:04:19 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi ; USER=root ; COMMAND=/usr/bin/aptitude search gtk
+oct. 30 19:04:19 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user alain by remi(uid=0)
+oct. 30 19:04:21 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user alain
+oct. 30 19:04:48 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi ; USER=root ; COMMAND=/usr/bin/aptitude search libgtk
+oct. 30 19:04:48 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user roland by remi(uid=0)
+oct. 30 19:04:49 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user roland
+oct. 30 19:05:31 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi ; USER=root ; COMMAND=/usr/bin/aptitude install libgtk-3-dev
+oct. 30 19:05:31 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user marie by remi(uid=0)
+oct. 30 19:06:16 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user marie
+oct. 30 19:06:22 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi ; USER=root ; COMMAND=/usr/bin/aptitude search libgst
+oct. 30 19:06:22 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user patrick by remi(uid=0)
+oct. 30 19:06:23 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user patrick
+oct. 30 19:06:32 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi ; USER=root ; COMMAND=/usr/bin/aptitude search libgstreamer1.0-dev
+oct. 30 19:06:32 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user jules by remi(uid=0)
+oct. 30 19:06:33 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user jules
+oct. 30 19:06:39 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi ; USER=root ; COMMAND=/usr/bin/aptitude install libgstreamer1.0-dev
+oct. 30 19:06:39 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user gaelle by remi(uid=0)
+oct. 30 19:06:45 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user gaelle
+oct. 30 19:08:49 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+oct. 30 19:08:49 remi-VirtualBox pkexec[6129]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+oct. 31 01:17:01 remi-VirtualBox CRON[8587]: pam_unix(cron:session): session opened for user julien by (uid=0)
+oct. 31 01:17:01 remi-VirtualBox CRON[8587]: pam_unix(cron:session): session closed for user julien
+oct. 31 02:00:55 remi-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=remi uid=1000 euid=0 tty=/dev/pts/0 ruser=remi rhost=  user=remi
+oct. 31 02:01:04 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi/Documents/MonPlayer ; USER=root ; COMMAND=/usr/bin/aptitude search gstreamer1
+oct. 31 02:01:04 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user remi by remi(uid=0)
+oct. 31 02:01:05 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user remi
+oct. 31 02:02:22 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi/Documents/MonPlayer ; USER=root ; COMMAND=/usr/bin/aptitude search gstreamer1-plugins
+oct. 31 02:02:22 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user gaelle by remi(uid=0)
+oct. 31 02:02:23 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user gaelle
+oct. 31 02:02:28 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi/Documents/MonPlayer ; USER=root ; COMMAND=/usr/bin/aptitude search gstreamer1.0-plugins
+oct. 31 02:02:28 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user patrick by remi(uid=0)
+oct. 31 02:02:29 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user patrick
+oct. 31 02:02:43 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi/Documents/MonPlayer ; USER=root ; COMMAND=/usr/bin/aptitude install gstreamer1.0-plugins-bad
+nov. 02 19:55:29 remi-VirtualBox gnome-keyring-daemon[1679]: keyring alias directory: /home/remi/.local/share/keyrings
+nov. 02 20:17:01 remi-VirtualBox CRON[3045]: pam_unix(cron:session): session opened for user marie by (uid=0)
+nov. 02 20:17:01 remi-VirtualBox CRON[3045]: pam_unix(cron:session): session closed for user marie
+nov. 02 21:17:01 remi-VirtualBox CRON[3064]: pam_unix(cron:session): session opened for user adrien by (uid=0)
+nov. 02 21:17:01 remi-VirtualBox CRON[3064]: pam_unix(cron:session): session closed for user adrien
+nov. 02 22:17:01 remi-VirtualBox CRON[3073]: pam_unix(cron:session): session opened for user julie by (uid=0)
+nov. 02 22:17:01 remi-VirtualBox CRON[3073]: pam_unix(cron:session): session closed for user julie
+nov. 02 23:17:01 remi-VirtualBox CRON[3082]: pam_unix(cron:session): session opened for user alfred by (uid=0)
+nov. 02 23:17:01 remi-VirtualBox CRON[3082]: pam_unix(cron:session): session closed for user alfred
+nov. 03 00:54:04 remi-VirtualBox dbus[602]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1299 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=706 comm="NetworkManager ")
+nov. 03 00:54:07 remi-VirtualBox dbus[602]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1299 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=706 comm="NetworkManager ")
+nov. 03 01:17:01 remi-VirtualBox CRON[3210]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 03 01:17:01 remi-VirtualBox CRON[3210]: pam_unix(cron:session): session closed for user root
+nov. 03 14:04:28 remi-VirtualBox sshd[912]: Server listening on 0.0.0.0 port 22.
+nov. 03 14:04:28 remi-VirtualBox sshd[912]: Server listening on :: port 22.
+nov. 03 14:04:29 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 14:04:29 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 03 14:04:29 remi-VirtualBox gnome-keyring-daemon[1750]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 03 14:04:29 remi-VirtualBox gnome-keyring-daemon[1750]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 03 14:04:30 remi-VirtualBox gnome-keyring-daemon[1750]: The PKCS#11 component was already initialized
+nov. 03 14:04:30 remi-VirtualBox gnome-keyring-daemon[1750]: The Secret Service was already initialized
+nov. 03 14:04:30 remi-VirtualBox gnome-keyring-daemon[1750]: The GPG agent was already initialized
+nov. 03 14:04:30 remi-VirtualBox gnome-keyring-daemon[1750]: The SSH agent was already initialized
+nov. 03 14:04:30 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.47 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 03 16:50:15 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi ; USER=root ; COMMAND=/usr/bin/aptitude search openEXR
+nov. 03 16:50:15 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by remi(uid=0)
+nov. 03 16:50:17 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+nov. 03 16:50:33 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi ; USER=root ; COMMAND=/usr/bin/aptitude install libopenexr-dev
+nov. 03 16:50:33 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by remi(uid=0)
+nov. 03 16:50:41 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+nov. 03 16:50:43 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 16:50:44 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 16:50:55 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi ; USER=root ; COMMAND=/usr/bin/aptitude install libopenexr-dev openexr openexr-viewers
+nov. 03 16:50:55 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user remi by remi(uid=0)
+nov. 03 16:51:07 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user remi
+nov. 03 16:52:34 remi-VirtualBox gnome-keyring-daemon[1750]: keyring alias directory: /home/remi/.local/share/keyrings
+nov. 03 16:53:50 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi/Documents/Sonia4/TP/OIM-LancerDeRayons-2014/build ; USER=root ; COMMAND=/usr/bin/aptitude search cmake
+nov. 03 16:53:50 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user patrick by remi(uid=0)
+nov. 03 16:53:51 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user patrick
+nov. 03 16:54:04 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi/Documents/Sonia4/TP/OIM-LancerDeRayons-2014/build ; USER=root ; COMMAND=/usr/bin/aptitude install cmake
+nov. 03 16:54:04 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user roland by remi(uid=0)
+nov. 03 16:54:11 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user roland
+nov. 03 16:55:56 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi/Documents/Sonia4/TP/OIM-LancerDeRayons-2014/build ; USER=root ; COMMAND=/usr/bin/aptitude search log2
+nov. 03 16:55:56 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user jean by remi(uid=0)
+nov. 03 16:55:57 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user jean
+nov. 03 16:57:05 remi-VirtualBox sudo:    remi : TTY=pts/0 ; PWD=/home/remi/Documents/Sonia4/TP/OIM-LancerDeRayons-2014/build ; USER=root ; COMMAND=/usr/bin/aptitude install luminance-hdr
+nov. 03 16:57:05 remi-VirtualBox sudo: pam_unix(sudo:session): session opened for user julien by remi(uid=0)
+nov. 03 16:57:39 remi-VirtualBox sudo: pam_unix(sudo:session): session closed for user julien
+nov. 03 17:17:01 remi-VirtualBox CRON[6164]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 03 17:17:01 remi-VirtualBox CRON[6164]: pam_unix(cron:session): session closed for user root
+nov. 03 18:17:01 remi-VirtualBox CRON[7002]: pam_unix(cron:session): session opened for user marie by (uid=0)
+nov. 03 18:17:01 remi-VirtualBox CRON[7002]: pam_unix(cron:session): session closed for user marie
+nov. 03 18:19:27 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 18:19:28 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 19:14:29 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 19:14:32 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 19:17:01 remi-VirtualBox CRON[7335]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 03 19:17:01 remi-VirtualBox CRON[7335]: pam_unix(cron:session): session closed for user root
+nov. 03 20:05:23 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 20:05:25 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 20:17:01 remi-VirtualBox CRON[7456]: pam_unix(cron:session): session opened for user jean by (uid=0)
+nov. 03 20:17:01 remi-VirtualBox CRON[7456]: pam_unix(cron:session): session closed for user jean
+nov. 03 21:20:52 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 21:20:55 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 03 22:17:01 remi-VirtualBox CRON[7585]: pam_unix(cron:session): session opened for user patrick by (uid=0)
+nov. 03 22:17:01 remi-VirtualBox CRON[7585]: pam_unix(cron:session): session closed for user patrick
+nov. 04 08:11:26 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 04 08:11:29 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 04 08:11:42 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 04 08:11:45 remi-VirtualBox dbus[590]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.14" (uid=0 pid=1291 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=709 comm="NetworkManager ")
+nov. 04 21:15:58 remi-VirtualBox sshd[989]: Server listening on 0.0.0.0 port 22.
+nov. 04 21:15:58 remi-VirtualBox sshd[989]: Server listening on :: port 22.
+nov. 04 21:15:59 remi-VirtualBox dbus[607]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1260 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=716 comm="NetworkManager ")
+nov. 04 21:15:59 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 04 21:16:00 remi-VirtualBox gnome-keyring-daemon[1772]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 04 21:16:00 remi-VirtualBox gnome-keyring-daemon[1772]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 04 21:16:00 remi-VirtualBox gnome-keyring-daemon[1772]: The Secret Service was already initialized
+nov. 04 21:16:00 remi-VirtualBox gnome-keyring-daemon[1772]: The PKCS#11 component was already initialized
+nov. 04 21:16:00 remi-VirtualBox gnome-keyring-daemon[1772]: The GPG agent was already initialized
+nov. 04 21:16:00 remi-VirtualBox gnome-keyring-daemon[1772]: The SSH agent was already initialized
+nov. 04 21:16:01 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 04 21:17:01 remi-VirtualBox CRON[2610]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 04 21:17:01 remi-VirtualBox CRON[2610]: pam_unix(cron:session): session closed for user root
+nov. 04 22:17:01 remi-VirtualBox CRON[3083]: pam_unix(cron:session): session opened for user remi by (uid=0)
+nov. 04 22:17:01 remi-VirtualBox CRON[3083]: pam_unix(cron:session): session closed for user rmei
+nov. 04 23:15:18 remi-VirtualBox dbus[607]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1260 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=716 comm="NetworkManager ")
+nov. 04 23:15:21 remi-VirtualBox dbus[607]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1260 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=716 comm="NetworkManager ")
+nov. 04 23:17:01 remi-VirtualBox CRON[3444]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 04 23:17:01 remi-VirtualBox CRON[3444]: pam_unix(cron:session): session closed for user root
+nov. 05 00:32:32 remi-VirtualBox dbus[607]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1260 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=716 comm="NetworkManager ")
+nov. 05 00:32:35 remi-VirtualBox dbus[607]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1260 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=716 comm="NetworkManager ")
+nov. 05 01:07:35 remi-VirtualBox dbus[607]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1260 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=716 comm="NetworkManager ")
+nov. 05 10:31:45 remi-VirtualBox sshd[909]: Server listening on 0.0.0.0 port 22.
+nov. 05 10:31:45 remi-VirtualBox sshd[909]: Server listening on :: port 22.
+nov. 05 10:31:46 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 05 10:31:46 remi-VirtualBox gnome-keyring-daemon[1652]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 05 10:31:46 remi-VirtualBox dbus[616]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1179 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=704 comm="NetworkManager ")
+nov. 05 10:31:46 remi-VirtualBox gnome-keyring-daemon[1652]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 05 10:31:47 remi-VirtualBox gnome-keyring-daemon[1652]: The Secret Service was already initialized
+nov. 05 10:31:47 remi-VirtualBox gnome-keyring-daemon[1652]: The PKCS#11 component was already initialized
+nov. 05 10:31:47 remi-VirtualBox gnome-keyring-daemon[1652]: The GPG agent was already initialized
+nov. 05 10:31:47 remi-VirtualBox gnome-keyring-daemon[1652]: The SSH agent was already initialized
+nov. 05 10:31:47 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 05 11:09:23 remi-VirtualBox sshd[907]: Server listening on 0.0.0.0 port 22.
+nov. 05 11:09:23 remi-VirtualBox sshd[907]: Server listening on :: port 22.
+nov. 05 11:09:25 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 05 11:09:25 remi-VirtualBox gnome-keyring-daemon[1690]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 05 11:09:25 remi-VirtualBox gnome-keyring-daemon[1690]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 05 11:09:26 remi-VirtualBox gnome-keyring-daemon[1690]: The Secret Service was already initialized
+nov. 05 11:09:26 remi-VirtualBox gnome-keyring-daemon[1690]: The PKCS#11 component was already initialized
+nov. 05 11:09:26 remi-VirtualBox gnome-keyring-daemon[1690]: The GPG agent was already initialized
+nov. 05 11:09:26 remi-VirtualBox gnome-keyring-daemon[1690]: The SSH agent was already initialized
+nov. 05 11:09:26 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.42 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 05 11:17:01 remi-VirtualBox CRON[2563]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 05 11:17:01 remi-VirtualBox CRON[2563]: pam_unix(cron:session): session closed for user root
+nov. 06 11:18:52 remi-VirtualBox sshd[913]: Server listening on 0.0.0.0 port 22.
+nov. 06 11:18:52 remi-VirtualBox sshd[913]: Server listening on :: port 22.
+nov. 06 11:18:54 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user patrick by (uid=0)
+nov. 06 11:18:54 remi-VirtualBox gnome-keyring-daemon[1667]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 06 11:18:54 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 06 11:18:54 remi-VirtualBox gnome-keyring-daemon[1667]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 06 11:18:54 remi-VirtualBox gnome-keyring-daemon[1667]: The Secret Service was already initialized
+nov. 06 11:18:54 remi-VirtualBox gnome-keyring-daemon[1667]: The PKCS#11 component was already initialized
+nov. 06 11:18:54 remi-VirtualBox gnome-keyring-daemon[1667]: The GPG agent was already initialized
+nov. 06 11:18:54 remi-VirtualBox gnome-keyring-daemon[1667]: The SSH agent was already initialized
+nov. 06 11:18:55 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 06 12:17:01 remi-VirtualBox CRON[2615]: pam_unix(cron:session): session opened for user julien by (uid=0)
+nov. 06 12:17:01 remi-VirtualBox CRON[2615]: pam_unix(cron:session): session closed for user julien
+nov. 06 13:56:47 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 06 13:57:00 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 06 14:17:01 remi-VirtualBox CRON[3057]: pam_unix(cron:session): session opened for user adrien by (uid=0)
+nov. 06 14:17:01 remi-VirtualBox CRON[3057]: pam_unix(cron:session): session closed for user adrien
+nov. 06 14:29:02 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+nov. 06 14:29:02 remi-VirtualBox pkexec[3254]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 06 14:29:24 remi-VirtualBox gnome-keyring-daemon[1667]: keyring alias directory: /home/remi/.local/share/keyrings
+nov. 06 13:57:08 remi-VirtualBox dbus[606]: message repeated 2 times: [ [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")]
+nov. 06 17:17:01 remi-VirtualBox CRON[5852]: pam_unix(cron:session): session opened for user remi by (uid=0)
+nov. 06 17:17:01 remi-VirtualBox CRON[5852]: pam_unix(cron:session): session closed for user remi
+nov. 06 19:17:01 remi-VirtualBox CRON[5937]: pam_unix(cron:session): session opened for user gaelle by (uid=0)
+nov. 06 19:17:01 remi-VirtualBox CRON[5937]: pam_unix(cron:session): session closed for user gaelle
+nov. 07 09:02:09 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 07 09:02:10 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 07 09:17:01 remi-VirtualBox CRON[6166]: pam_unix(cron:session): session opened for user jean by (uid=0)
+nov. 07 09:17:01 remi-VirtualBox CRON[6166]: pam_unix(cron:session): session closed for user jean
+nov. 07 10:17:01 remi-VirtualBox CRON[6687]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 07 10:17:01 remi-VirtualBox CRON[6687]: pam_unix(cron:session): session closed for user root
+nov. 07 11:17:01 remi-VirtualBox CRON[7051]: pam_unix(cron:session): session opened for user remi by (uid=0)
+nov. 07 11:17:01 remi-VirtualBox CRON[7051]: pam_unix(cron:session): session closed for user remi
+nov. 07 12:17:01 remi-VirtualBox CRON[8177]: pam_unix(cron:session): session opened for user marie by (uid=0)
+nov. 07 12:17:01 remi-VirtualBox CRON[8177]: pam_unix(cron:session): session closed for user marie
+nov. 07 13:17:01 remi-VirtualBox CRON[8576]: pam_unix(cron:session): session opened for user patrick by (uid=0)
+nov. 07 13:17:01 remi-VirtualBox CRON[8576]: pam_unix(cron:session): session closed for user patrick
+nov. 07 15:06:59 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 07 16:24:12 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 07 17:29:07 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 07 17:29:09 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 07 17:41:16 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 07 17:41:19 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 07 19:17:01 remi-VirtualBox CRON[11047]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 07 19:17:01 remi-VirtualBox CRON[11047]: pam_unix(cron:session): session closed for user root
+nov. 08 00:56:52 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 08 00:56:55 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.16" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=727 comm="NetworkManager ")
+nov. 08 09:16:23 remi-VirtualBox sshd[912]: Server listening on 0.0.0.0 port 22.
+nov. 08 09:16:23 remi-VirtualBox sshd[912]: Server listening on :: port 22.
+nov. 08 09:16:24 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 08 09:16:24 remi-VirtualBox gnome-keyring-daemon[1691]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 08 09:16:24 remi-VirtualBox gnome-keyring-daemon[1691]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 08 09:16:25 remi-VirtualBox gnome-keyring-daemon[1691]: The Secret Service was already initialized
+nov. 08 09:16:25 remi-VirtualBox gnome-keyring-daemon[1691]: The PKCS#11 component was already initialized
+nov. 08 09:16:25 remi-VirtualBox gnome-keyring-daemon[1691]: The GPG agent was already initialized
+nov. 08 09:16:25 remi-VirtualBox gnome-keyring-daemon[1691]: The SSH agent was already initialized
+nov. 08 09:16:25 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.45 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 08 09:17:16 remi-VirtualBox sshd[879]: Server listening on 0.0.0.0 port 22.
+nov. 08 09:17:16 remi-VirtualBox sshd[879]: Server listening on :: port 22.
+nov. 08 09:17:17 remi-VirtualBox dbus[606]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.12" (uid=0 pid=1286 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.4" (uid=0 pid=703 comm="NetworkManager ")
+nov. 08 09:17:18 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 08 09:17:18 remi-VirtualBox gnome-keyring-daemon[1719]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 08 09:17:18 remi-VirtualBox gnome-keyring-daemon[1719]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 08 09:17:19 remi-VirtualBox gnome-keyring-daemon[1719]: The Secret Service was already initialized
+nov. 08 09:17:19 remi-VirtualBox gnome-keyring-daemon[1719]: The PKCS#11 component was already initialized
+nov. 08 09:17:19 remi-VirtualBox gnome-keyring-daemon[1719]: The GPG agent was already initialized
+nov. 08 09:17:19 remi-VirtualBox gnome-keyring-daemon[1719]: The SSH agent was already initialized
+nov. 08 09:17:19 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.36 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 08 10:17:02 remi-VirtualBox CRON[3487]: pam_unix(cron:session): session opened for user remi by (uid=0)
+nov. 08 10:17:02 remi-VirtualBox CRON[3487]: pam_unix(cron:session): session closed for user remi
+nov. 11 00:17:01 remi-VirtualBox CRON[3851]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 11 00:17:01 remi-VirtualBox CRON[3851]: pam_unix(cron:session): session closed for user root
+nov. 11 13:30:55 remi-VirtualBox systemd-logind[580]: New seat seat0.
+nov. 11 13:30:55 remi-VirtualBox systemd-logind[580]: Watching system buttons on /dev/input/event0 (Power Button)
+nov. 11 13:30:55 remi-VirtualBox systemd-logind[580]: Watching system buttons on /dev/input/event1 (Sleep Button)
+nov. 11 13:30:56 remi-VirtualBox sshd[904]: Server listening on 0.0.0.0 port 22.
+nov. 11 13:30:56 remi-VirtualBox sshd[904]: Server listening on :: port 22.
+nov. 11 13:30:57 remi-VirtualBox dbus[555]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1311 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=748 comm="NetworkManager ")
+nov. 11 13:30:57 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 11 13:30:57 remi-VirtualBox systemd-logind[580]: New session c1 of user remi.
+nov. 11 13:30:57 remi-VirtualBox systemd-logind[580]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+nov. 11 13:30:57 remi-VirtualBox gnome-keyring-daemon[1726]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 11 13:30:57 remi-VirtualBox gnome-keyring-daemon[1726]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 11 13:30:58 remi-VirtualBox gnome-keyring-daemon[1726]: The Secret Service was already initialized
+nov. 11 13:30:58 remi-VirtualBox gnome-keyring-daemon[1726]: The PKCS#11 component was already initialized
+nov. 11 13:30:58 remi-VirtualBox gnome-keyring-daemon[1726]: The GPG agent was already initialized
+nov. 11 13:30:58 remi-VirtualBox gnome-keyring-daemon[1726]: The SSH agent was already initialized
+nov. 11 13:30:59 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.46 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 11 14:17:01 remi-VirtualBox CRON[2542]: pam_unix(cron:session): session opened for user alain by (uid=0)
+nov. 11 14:17:01 remi-VirtualBox CRON[2542]: pam_unix(cron:session): session closed for user alain
+nov. 11 15:17:01 remi-VirtualBox CRON[2560]: pam_unix(cron:session): session opened for user jules by (uid=0)
+nov. 11 15:17:01 remi-VirtualBox CRON[2560]: pam_unix(cron:session): session closed for user jules
+nov. 11 16:17:01 remi-VirtualBox CRON[2569]: pam_unix(cron:session): session opened for user remi by (uid=0)
+nov. 11 16:17:01 remi-VirtualBox CRON[2569]: pam_unix(cron:session): session closed for user remi
+nov. 11 17:17:01 remi-VirtualBox CRON[2746]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 11 17:17:01 remi-VirtualBox CRON[2746]: pam_unix(cron:session): session closed for user root
+nov. 11 18:17:00 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user patrick by (uid=1000)
+nov. 11 18:17:00 remi-VirtualBox pkexec[3374]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 11 18:17:01 remi-VirtualBox CRON[3391]: pam_unix(cron:session): session opened for user marie by (uid=0)
+nov. 11 18:17:01 remi-VirtualBox CRON[3391]: pam_unix(cron:session): session closed for user marie
+nov. 11 18:17:21 remi-VirtualBox gnome-keyring-daemon[1726]: keyring alias directory: /home/remi/.local/share/keyrings
+nov. 11 19:17:01 remi-VirtualBox CRON[3431]: pam_unix(cron:session): session opened for user gaelle by (uid=0)
+nov. 11 19:17:01 remi-VirtualBox CRON[3431]: pam_unix(cron:session): session closed for user gaelle
+nov. 11 19:45:08 remi-VirtualBox dbus[555]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1311 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=748 comm="NetworkManager ")
+nov. 11 19:45:11 remi-VirtualBox dbus[555]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1311 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=748 comm="NetworkManager ")
+nov. 11 20:17:01 remi-VirtualBox CRON[3557]: pam_unix(cron:session): session opened for user julien by (uid=0)
+nov. 11 20:17:01 remi-VirtualBox CRON[3557]: pam_unix(cron:session): session closed for user julien
+nov. 11 21:02:35 remi-VirtualBox systemd-logind[580]: System is powering down.
+nov. 12 08:01:53 remi-VirtualBox sshd[917]: Server listening on 0.0.0.0 port 22.
+nov. 12 08:01:53 remi-VirtualBox sshd[917]: Server listening on :: port 22.
+nov. 12 08:01:54 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 12 08:01:54 remi-VirtualBox gnome-keyring-daemon[1655]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 12 08:01:55 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.15" (uid=0 pid=1221 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=723 comm="NetworkManager ")
+nov. 12 08:01:54 remi-VirtualBox gnome-keyring-daemon[1655]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 12 08:01:55 remi-VirtualBox gnome-keyring-daemon[1655]: The Secret Service was already initialized
+nov. 12 08:01:55 remi-VirtualBox gnome-keyring-daemon[1655]: The PKCS#11 component was already initialized
+nov. 12 08:01:55 remi-VirtualBox gnome-keyring-daemon[1655]: The SSH agent was already initialized
+nov. 12 08:01:55 remi-VirtualBox gnome-keyring-daemon[1655]: The GPG agent was already initialized
+nov. 12 08:01:55 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 12 08:02:24 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.15" (uid=0 pid=1221 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=723 comm="NetworkManager ")
+nov. 12 08:02:25 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.15" (uid=0 pid=1221 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=723 comm="NetworkManager ")
+nov. 12 08:02:58 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+nov. 12 08:02:58 remi-VirtualBox pkexec[2709]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 12 08:09:18 remi-VirtualBox gnome-keyring-daemon[1655]: keyring alias directory: /home/remi/.local/share/keyrings
+nov. 12 08:17:01 remi-VirtualBox CRON[4886]: pam_unix(cron:session): session opened for user alfred by (uid=0)
+nov. 12 08:17:01 remi-VirtualBox CRON[4886]: pam_unix(cron:session): session closed for user alfred
+nov. 12 08:23:57 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user aline by (uid=1000)
+nov. 12 08:23:57 remi-VirtualBox pkexec[4964]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 12 08:38:57 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user aline by (uid=1000)
+nov. 12 08:38:57 remi-VirtualBox pkexec[5235]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 12 11:05:46 remi-VirtualBox systemd-logind[565]: New seat seat0.
+nov. 12 11:05:46 remi-VirtualBox systemd-logind[565]: Watching system buttons on /dev/input/event0 (Power Button)
+nov. 12 11:05:46 remi-VirtualBox systemd-logind[565]: Watching system buttons on /dev/input/event1 (Sleep Button)
+nov. 12 11:05:47 remi-VirtualBox sshd[892]: Server listening on 0.0.0.0 port 22.
+nov. 12 11:05:47 remi-VirtualBox sshd[892]: Server listening on :: port 22.
+nov. 12 11:05:48 remi-VirtualBox dbus[505]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1131 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=765 comm="NetworkManager ")
+nov. 12 11:05:49 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 12 11:05:49 remi-VirtualBox systemd-logind[565]: New session c1 of user remi.
+nov. 12 11:05:49 remi-VirtualBox systemd-logind[565]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+nov. 12 11:05:49 remi-VirtualBox gnome-keyring-daemon[1745]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 12 11:05:49 remi-VirtualBox gnome-keyring-daemon[1745]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 12 11:05:50 remi-VirtualBox gnome-keyring-daemon[1745]: The Secret Service was already initialized
+nov. 12 11:05:50 remi-VirtualBox gnome-keyring-daemon[1745]: The PKCS#11 component was already initialized
+nov. 12 11:05:50 remi-VirtualBox gnome-keyring-daemon[1745]: The GPG agent was already initialized
+nov. 12 11:05:50 remi-VirtualBox gnome-keyring-daemon[1745]: The SSH agent was already initialized
+nov. 12 11:05:51 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 12 11:06:53 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+nov. 12 11:06:53 remi-VirtualBox pkexec[2538]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 12 11:07:34 remi-VirtualBox systemd-logind[565]: System is powering down.
+nov. 12 11:07:34 remi-VirtualBox systemd-logind[565]: Operation finished.
+nov. 12 11:13:42 remi-VirtualBox sshd[915]: Server listening on 0.0.0.0 port 22.
+nov. 12 11:13:42 remi-VirtualBox sshd[915]: Server listening on :: port 22.
+nov. 12 11:13:43 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 12 11:13:44 remi-VirtualBox gnome-keyring-daemon[1718]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 12 11:13:44 remi-VirtualBox gnome-keyring-daemon[1718]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 12 11:13:44 remi-VirtualBox gnome-keyring-daemon[1718]: The Secret Service was already initialized
+nov. 12 11:13:44 remi-VirtualBox gnome-keyring-daemon[1718]: The PKCS#11 component was already initialized
+nov. 12 11:13:44 remi-VirtualBox gnome-keyring-daemon[1718]: The GPG agent was already initialized
+nov. 12 11:13:44 remi-VirtualBox gnome-keyring-daemon[1718]: The SSH agent was already initialized
+nov. 12 11:13:45 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 12 11:14:48 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+nov. 12 11:14:48 remi-VirtualBox pkexec[2445]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 12 11:17:01 remi-VirtualBox CRON[2602]: pam_unix(cron:session): session opened for user francois by (uid=0)
+nov. 12 11:17:01 remi-VirtualBox CRON[2602]: pam_unix(cron:session): session closed for user francois
+nov. 12 12:17:01 remi-VirtualBox CRON[15404]: pam_unix(cron:session): session opened for user patrick by (uid=0)
+nov. 12 12:17:01 remi-VirtualBox CRON[15404]: pam_unix(cron:session): session closed for user patrick
+nov. 16 08:45:12 remi-VirtualBox sshd[891]: Server listening on 0.0.0.0 port 22.
+nov. 16 08:45:12 remi-VirtualBox sshd[891]: Server listening on :: port 22.
+nov. 16 08:45:13 remi-VirtualBox dbus[535]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1205 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=737 comm="NetworkManager ")
+nov. 16 08:45:14 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 16 08:45:14 remi-VirtualBox gnome-keyring-daemon[1767]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 16 08:45:14 remi-VirtualBox gnome-keyring-daemon[1767]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 16 08:45:15 remi-VirtualBox gnome-keyring-daemon[1767]: The Secret Service was already initialized
+nov. 16 08:45:15 remi-VirtualBox gnome-keyring-daemon[1767]: The PKCS#11 component was already initialized
+nov. 16 08:45:15 remi-VirtualBox gnome-keyring-daemon[1767]: The GPG agent was already initialized
+nov. 16 08:45:15 remi-VirtualBox gnome-keyring-daemon[1767]: The SSH agent was already initialized
+nov. 16 08:45:15 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 16 08:46:18 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+nov. 16 08:46:18 remi-VirtualBox pkexec[2627]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 16 09:07:17 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+nov. 16 09:07:17 remi-VirtualBox pkexec[3280]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 16 09:16:04 remi-VirtualBox dbus[535]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1205 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=737 comm="NetworkManager ")
+nov. 16 09:16:05 remi-VirtualBox dbus[535]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1205 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=737 comm="NetworkManager ")
+nov. 16 09:17:01 remi-VirtualBox CRON[3429]: pam_unix(cron:session): session opened for user roland by (uid=0)
+nov. 16 09:17:01 remi-VirtualBox CRON[3429]: pam_unix(cron:session): session closed for user roland
+nov. 16 09:41:24 remi-VirtualBox dbus[535]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1205 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=737 comm="NetworkManager ")
+nov. 16 09:41:25 remi-VirtualBox dbus[535]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1205 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=737 comm="NetworkManager ")
+nov. 16 11:01:55 remi-VirtualBox dbus[535]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.13" (uid=0 pid=1205 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=737 comm="NetworkManager ")
+nov. 16 11:17:01 remi-VirtualBox CRON[4128]: pam_unix(cron:session): session opened for user remi by (uid=0)
+nov. 16 11:17:01 remi-VirtualBox CRON[4128]: pam_unix(cron:session): session closed for user remi
+nov. 16 12:17:01 remi-VirtualBox CRON[568]: pam_unix(cron:session): session opened for user gaelle by (uid=0)
+nov. 16 12:17:01 remi-VirtualBox CRON[568]: pam_unix(cron:session): session closed for user gaelle
+nov. 17 12:13:39 remi-VirtualBox sshd[907]: Server listening on 0.0.0.0 port 22.
+nov. 17 12:13:39 remi-VirtualBox sshd[907]: Server listening on :: port 22.
+nov. 17 12:13:40 remi-VirtualBox dbus[521]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.11" (uid=0 pid=1164 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.5" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 12:13:41 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 17 12:13:41 remi-VirtualBox gnome-keyring-daemon[1743]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 17 12:13:41 remi-VirtualBox gnome-keyring-daemon[1743]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 17 12:13:41 remi-VirtualBox gnome-keyring-daemon[1743]: The PKCS#11 component was already initialized
+nov. 17 12:13:41 remi-VirtualBox gnome-keyring-daemon[1743]: The Secret Service was already initialized
+nov. 17 12:13:42 remi-VirtualBox gnome-keyring-daemon[1743]: The GPG agent was already initialized
+nov. 17 12:13:42 remi-VirtualBox gnome-keyring-daemon[1743]: The SSH agent was already initialized
+nov. 17 12:13:42 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.38 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 17 12:14:45 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+nov. 17 12:14:45 remi-VirtualBox pkexec[2585]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 17 12:17:01 remi-VirtualBox CRON[2652]: pam_unix(cron:session): session opened for user julien by (uid=0)
+nov. 17 12:17:01 remi-VirtualBox CRON[2652]: pam_unix(cron:session): session closed for user julien
+nov. 17 12:56:44 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+nov. 17 12:56:44 remi-VirtualBox pkexec[3558]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 17 15:30:50 remi-VirtualBox sshd[912]: Server listening on 0.0.0.0 port 22.
+nov. 17 15:30:50 remi-VirtualBox sshd[912]: Server listening on :: port 22.
+nov. 17 15:30:51 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 15:30:52 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 17 15:30:52 remi-VirtualBox gnome-keyring-daemon[1742]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 17 15:30:52 remi-VirtualBox gnome-keyring-daemon[1742]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 17 15:30:52 remi-VirtualBox gnome-keyring-daemon[1742]: The Secret Service was already initialized
+nov. 17 15:30:52 remi-VirtualBox gnome-keyring-daemon[1742]: The PKCS#11 component was already initialized
+nov. 17 15:30:52 remi-VirtualBox gnome-keyring-daemon[1742]: The GPG agent was already initialized
+nov. 17 15:30:52 remi-VirtualBox gnome-keyring-daemon[1742]: The SSH agent was already initialized
+nov. 17 15:30:53 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 17 15:31:57 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user remi by (uid=1000)
+nov. 17 15:31:57 remi-VirtualBox pkexec[2626]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 17 16:37:27 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:37:30 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:37:47 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:37:50 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:38:06 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:38:07 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:38:22 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:38:25 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:39:51 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:39:52 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:44:31 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 16:44:33 remi-VirtualBox dbus[536]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.18" (uid=0 pid=1313 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=751 comm="NetworkManager ")
+nov. 17 17:17:01 remi-VirtualBox CRON[4075]: pam_unix(cron:session): session opened for user patrick by (uid=0)
+nov. 17 17:17:01 remi-VirtualBox CRON[4075]: pam_unix(cron:session): session closed for user patrick
+nov. 18 08:17:01 remi-VirtualBox CRON[4229]: pam_unix(cron:session): session opened for user julien by (uid=0)
+nov. 18 08:17:01 remi-VirtualBox CRON[4229]: pam_unix(cron:session): session closed for user julien
+nov. 18 09:17:01 remi-VirtualBox CRON[4311]: pam_unix(cron:session): session opened for user remi by (uid=0)
+nov. 18 09:17:01 remi-VirtualBox CRON[4311]: pam_unix(cron:session): session closed for user remi
+nov. 18 09:38:50 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user julien by (uid=1000)
+nov. 18 09:38:50 remi-VirtualBox pkexec[5026]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 18 10:17:01 remi-VirtualBox CRON[5805]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 18 10:17:01 remi-VirtualBox CRON[5805]: pam_unix(cron:session): session closed for user root
+nov. 18 11:17:01 remi-VirtualBox CRON[6253]: pam_unix(cron:session): session opened for user roland by (uid=0)
+nov. 18 11:17:01 remi-VirtualBox CRON[6253]: pam_unix(cron:session): session closed for user roland
+nov. 18 14:17:01 remi-VirtualBox CRON[6716]: pam_unix(cron:session): session opened for user patrick by (uid=0)
+nov. 18 14:17:01 remi-VirtualBox CRON[6716]: pam_unix(cron:session): session closed for user patrick
+nov. 18 15:17:01 remi-VirtualBox CRON[7135]: pam_unix(cron:session): session opened for user remi by (uid=0)
+nov. 18 15:17:01 remi-VirtualBox CRON[7135]: pam_unix(cron:session): session closed for user remi
+nov. 18 16:17:01 remi-VirtualBox CRON[7441]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 18 16:17:01 remi-VirtualBox CRON[7441]: pam_unix(cron:session): session closed for user root
+nov. 18 17:17:01 remi-VirtualBox CRON[7580]: pam_unix(cron:session): session opened for user jean by (uid=0)
+nov. 18 17:17:01 remi-VirtualBox CRON[7580]: pam_unix(cron:session): session closed for user jean
+nov. 18 18:17:01 remi-VirtualBox CRON[8162]: pam_unix(cron:session): session opened for user root by (uid=0)
+nov. 18 18:17:01 remi-VirtualBox CRON[8162]: pam_unix(cron:session): session closed for user root
+nov. 19 08:39:17 remi-VirtualBox sshd[917]: Server listening on 0.0.0.0 port 22.
+nov. 19 08:39:17 remi-VirtualBox sshd[917]: Server listening on :: port 22.
+nov. 19 08:39:19 remi-VirtualBox lightdm: pam_unix(lightdm-autologin:session): session opened for user remi by (uid=0)
+nov. 19 08:39:19 remi-VirtualBox gnome-keyring-daemon[1718]: couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files
+nov. 19 08:39:19 remi-VirtualBox gnome-keyring-daemon[1718]: message repeated 2 times: [ couldn't set environment variable in session: The name org.gnome.SessionManager was not provided by any .service files]
+nov. 19 08:39:20 remi-VirtualBox gnome-keyring-daemon[1718]: The Secret Service was already initialized
+nov. 19 08:39:20 remi-VirtualBox gnome-keyring-daemon[1718]: The PKCS#11 component was already initialized
+nov. 19 08:39:20 remi-VirtualBox gnome-keyring-daemon[1718]: The SSH agent was already initialized
+nov. 19 08:39:20 remi-VirtualBox gnome-keyring-daemon[1718]: The GPG agent was already initialized
+nov. 19 08:39:20 remi-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.37 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale fr_FR.UTF-8)
+nov. 19 08:40:23 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user julien by (uid=1000)
+nov. 19 08:40:23 remi-VirtualBox pkexec[2491]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 19 09:13:23 remi-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user roland by (uid=1000)
+nov. 19 09:13:23 remi-VirtualBox pkexec[3048]: remi: Executing command [USER=root] [TTY=unknown] [CWD=/home/remi] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+nov. 19 09:17:01 remi-VirtualBox CRON[3055]: pam_unix(cron:session): session opened for user patrick by (uid=0)
+nov. 19 09:17:01 remi-VirtualBox CRON[3055]: pam_unix(cron:session): session closed for user patrick
