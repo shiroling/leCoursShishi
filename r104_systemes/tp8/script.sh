@@ -2,6 +2,10 @@
 
 if [ "$#" -ne 3 ];
 then
+	if [ "$#" -gt 0 ]; 
+		then echo "Bad date format" ; 
+		exit
+	fi
 	d=$(date +%Y-%m-%d)
 else
 	if [ ${#3} -ne 4 ]; 
@@ -28,20 +32,21 @@ echo $nbJour
 echo $nbMois
 
 
-declare -a dateT=(	"none"
-					"jan." 
-                    "fev." 
-                    "mar." 
-                    "apr."
-                    "may."
-                    "jun."
-                    "jul."
-                    "aug."
-                    "sep."
-                    "oct."
-                    "nov."
-                    "dec."
-					)
+declare -a dateT=(	
+	"none"
+	"jan." 
+    "fev." 
+    "mar." 
+    "apr."
+    "may."
+    "jun."
+    "jul."
+    "aug."
+    "sep."
+    "oct."
+    "nov."
+    "dec."
+)
 
 arrayS=($(grep "session opened" auth.log.txt  | grep "${dateT[$nbMois]} $2" | cut -d " " -f 11 | sort -u ))
 jour=$(date -d $d +%A)
