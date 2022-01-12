@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\tad_pile.gpr</vfs_project>
+      <vfs_file>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\a_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 3" >
+      <vfs_project>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\tad_pile.gpr</vfs_project>
+      <vfs_file>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\a_tester.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\tad_pile.gpr</vfs_project>
+      <vfs_file>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\Tristan_Patout_tad_pile.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\tad_pile.gpr</vfs_project>
+      <vfs_file>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\Tristan_Patout_tad_pile.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\tad_pile.gpr</vfs_project>
+      <vfs_file>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\tad_pile.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\tad_pile.gpr</vfs_project>
+      <vfs_file>C:\Users\shiro\Desktop\Tristan_Patout_TP_pile\tad_pile.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

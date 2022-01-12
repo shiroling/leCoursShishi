@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__run_all_tests.o
+[PROJECT FILES]
+C:\Users\shiro\Desktop\fantin\tad_pile.gpr
+20220110145148 c2c255ef4d65dc8d1aeb1856f3bdb180
+[BOUND OBJECT FILES]
+C:\Users\shiro\Desktop\fantin\tad_pile.o
+C:\Users\shiro\Desktop\fantin\tests.o
+C:\Users\shiro\Desktop\fantin\a_tester.o
+C:\Users\shiro\Desktop\fantin\run_all_tests.o
+[GENERATED SOURCE FILES]
+b__run_all_tests.ads
+b__run_all_tests.adb
+b__run_all_tests.ali
+[RESULTING OPTIONS]
+-LC:\Users\shiro\Desktop\fantin\
+-LC:\Users\shiro\Desktop\fantin\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
