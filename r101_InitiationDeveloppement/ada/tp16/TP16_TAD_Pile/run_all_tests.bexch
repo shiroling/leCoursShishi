@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__run_all_tests.o
+[PROJECT FILES]
+C:\Users\shiro\Desktop\TP16_TAD_Pile\tad_pile.gpr
+20220110145148 951b7f11fc1ce7dbe8aab2360aff79a0
+[BOUND OBJECT FILES]
+C:\Users\shiro\Desktop\TP16_TAD_Pile\TAD_Pile.o
+C:\Users\shiro\Desktop\TP16_TAD_Pile\tests.o
+C:\Users\shiro\Desktop\TP16_TAD_Pile\a_tester.o
+C:\Users\shiro\Desktop\TP16_TAD_Pile\run_all_tests.o
+[GENERATED SOURCE FILES]
+b__run_all_tests.ads
+b__run_all_tests.adb
+b__run_all_tests.ali
+[RESULTING OPTIONS]
+-LC:\Users\shiro\Desktop\TP16_TAD_Pile\
+-LC:\Users\shiro\Desktop\TP16_TAD_Pile\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
