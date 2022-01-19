@@ -1,0 +1,8 @@
+project TAD_Dictionnaire is
+
+   for Main use ("Jeu_mots_coupes.adb", "run_tests_TAD_Dictionnaire.adb", "test_Mot.adb");
+   for Source_Dirs use ("tests", "src/**");
+   for Object_Dir use "obj";
+
+end TAD_Dictionnaire;
+
