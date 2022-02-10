@@ -5,3 +5,4 @@ main: add.c
 
 clean:
 	rm main
+
