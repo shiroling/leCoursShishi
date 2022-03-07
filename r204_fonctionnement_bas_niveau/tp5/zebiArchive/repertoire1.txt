@@ -1,0 +1,8 @@
+Jules:Maigret:1931
+Arsene:Lupin:1905
+Charles:Magne:800
+Jules:Cesar:-44
+Charles:Martel:732
+Sherlock:Holmes:221
+Henri:Landru:11
+James:Bond:007
