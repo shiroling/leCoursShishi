@@ -10,33 +10,29 @@ This is a temporary script file.
 import numpy as np
 import matplotlib.pyplot as plt
 
-def nbTotal(p,M):
+def nbTotal(M):
     temp = M
+    p=len(M)
     for i in range(1, p):
-         M= M* temp
-           
-def transitiveClosing(p, M):
-    Mtmp = M
+         temp= np.dot(temp,M)
+         temp=temp+M
+    return (temp)    
 
-    print(M)
-    for i in range(0, p-1):
-        M=M+ np.linalg.matrix_power(M, i+1)
-        print(M)
-        
-        for j in range(0, p-1):
-            if M[i,j] == 0:
-                Mtmp[i,j] = 0
-            else:
-                Mtmp[i,j] = 1
-                
-    return (Mtmp)    
+def transitiveClosing(M):
+    Ma=nbTotal(M)
+    p=len(Ma)
+    for i in range (0,p):
+        for j in range (0,p):
+            if Ma[i][j]>1 :
+                Ma[i][j]=1    
+    return Ma
 
 
 
 
-M = np.matrix([[0,1,0,0,0],[0,0,1,0,0],[0,0,0,0,1],[0,0,1,0,0],[0,1,0,0,0]])
-
-print(transitiveClosing(3, M))    
+M = np.array([[0,1,0,0,0],[0,0,1,0,0],[0,0,0,0,1],[0,0,1,0,0],[0,1,0,0,0]])
+print (nbTotal(M))
+print(transitiveClosing(M))    
 #plt.figure(1)
 #plt.semilogy(y, 's')
 
