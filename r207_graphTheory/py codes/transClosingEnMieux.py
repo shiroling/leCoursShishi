@@ -2,27 +2,32 @@
 """
 Created on Thu Mar 10 11:32:37 2022
 
-@author: shiro
+@author: shiro le bg
 """
 
 import numpy as np
 
-M = np.array([[0,1,0,0],[0,0,1,0],[0,0,0,1],[1,0,0,0]])
-
-
-def Trans2(M):
-    n = len(M)
-    for s in range(n):          //section de 
-        for r in range(n):
-            if M[r][s] == 1:
-                for t in range(n):
-                    if M[s][t] == 1:
-                        M[r][t] = 1
+def pL(M, s):
+    M=np.array(M)
+    n=len(M)
+    file=[s]
+    listeRouge = []
+    listFinals = []
+    couleur= {}
+    
         
-        
-    return(M)
-
-print(Trans2(n))
+    while file!= []:
+        i= file[0]
+        for j in range(0, n):
+            
+            
+            if M[i][j] == 1 and couleur[j] == 'blanc':
+                file.append(j)
+                couleur[j] = 'vert'
+        couleur[i]='rouge'
+        listeRouge.append(i)
+        file.pop(0)
+    return (listFinals)
                 
                         
                 
