@@ -1,6 +1,6 @@
 # Don't track content of these folders
 r112_ppp/
-
+r202_IHM/td2/*
 
 # Compiled source #
 ###################
@@ -14,7 +14,7 @@ r112_ppp/
 
 *.so
 
-
+*.lo1
 
 # Packages #
 ############
